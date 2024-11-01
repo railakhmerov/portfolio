@@ -334,8 +334,12 @@ footer.footer .container .footer-inner .footer__sides .footer__right-side .foote
   margin-bottom: 65px;
 }
 footer.footer .container .footer-inner .footer__sides .footer__right-side .footer__links a.footer__link {
+  margin-right: 25px;
   color: var(--white-color);
   font-size: 22px;
+}
+footer.footer .container .footer-inner .footer__sides .footer__right-side .footer__links .a.footer__link:last-child {
+  margin-right: 0;
 }
 footer.footer .container .footer-inner .footer__sides .footer__right-side .footer__links a.footer__link:hover {
   cursor: pointer;
