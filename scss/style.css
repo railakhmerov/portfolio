@@ -5,6 +5,7 @@
   --lime-color: #98FF00;
   --black-color: #000;
   --grey-color: #aaaaaa;
+  --dark-grey-color: #222222;
   --input-inside-grey-color: #3B3D3B;
   --white-color: #fff;
 }
@@ -201,7 +202,7 @@ main.main section.skills_for_work .container .skills_for_work-inner .skills_for_
   align-items: center;
   justify-content: space-between;
   border-radius: 30px;
-  background-color: #191C19;
+  background-color: var(--dark-grey-color);
 }
 main.main section.skills_for_work .container .skills_for_work-inner .skills_for_work__content .item__info .content__text .content-left {
   width: 49%;
