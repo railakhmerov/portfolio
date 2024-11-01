@@ -196,6 +196,10 @@ main.main section.skills_for_work .container .skills_for_work-inner .skills_for_
 main.main section.skills_for_work .container .skills_for_work-inner .skills_for_work__content .item__info {
   margin-bottom: 40px;
 }
+main.main section.skills_for_work .container .skills_for_work-inner .skills_for_work__content .item__info .content__img img {
+  width: 100%;
+  border-radius: 30px;
+}
 main.main section.skills_for_work .container .skills_for_work-inner .skills_for_work__content .item__info .content__text {
   padding: 50px;
   display: flex;
