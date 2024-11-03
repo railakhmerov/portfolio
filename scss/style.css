@@ -130,7 +130,7 @@ header.header .container .header-inner .header__content .header__content-title h
   color: var(--purpur-color);
 }
 .burger .burger__content nav.burger__nav_links {
-  margin-bottom: 250px;
+  margin-bottom: 150px;
   display: flex;
   flex-direction: column;
   gap: 20px;

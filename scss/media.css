@@ -453,7 +453,7 @@
     font-size: 40px;
   }
   .burger .burger__content nav.burger__nav_links {
-    gap: 25px;
+    margin-bottom: 100px;
   }
   .burger .burger__content nav.burger__nav_links .burger__nav_link {
     font-size: 20px;
