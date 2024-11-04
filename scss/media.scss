@@ -1162,7 +1162,9 @@
                             h3 {
                                 font-size: 30px;
                             }
-                            h4 {}
+                            h4 {
+                                font-size: 20px;
+                            }
                         }
                     }
                 }
@@ -1284,6 +1286,37 @@
                             width: 100%;
                             padding: 40px 30px;
                             font-size: 18px;
+                        }
+                    }
+                }
+            }
+        }
+        section.competitions {
+            .container {
+                width: 100%;
+                margin: 0 auto;
+                padding-left: 20px;
+                padding-right: 20px;
+                .competitions-inner {
+                    .competition__title {
+                        h2 {
+                            font-size: 40px;
+                        }
+                    }
+                    .competition__content {
+                        display: block;
+                        .competition__info {
+                            margin-bottom: 60px;
+                            width: 100%;
+                            img {
+                                width: 40px;
+                            }
+                            h3 {
+                                font-size: 30px;
+                            }
+                            h4 {
+                                font-size: 18px;
+                            }
                         }
                     }
                 }

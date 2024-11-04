@@ -792,6 +792,9 @@
   main.main section.competitions .container .competitions-inner .competition__content .competition__info h3 {
     font-size: 30px;
   }
+  main.main section.competitions .container .competitions-inner .competition__content .competition__info h4 {
+    font-size: 20px;
+  }
 }
 @media (max-width: 380px) {
   header.header .container {
@@ -886,6 +889,31 @@
   main.main section.projects .container .projects-inner .all-projects__btn button {
     width: 100%;
     padding: 40px 30px;
+    font-size: 18px;
+  }
+  main.main section.competitions .container {
+    width: 100%;
+    margin: 0 auto;
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+  main.main section.competitions .container .competitions-inner .competition__title h2 {
+    font-size: 40px;
+  }
+  main.main section.competitions .container .competitions-inner .competition__content {
+    display: block;
+  }
+  main.main section.competitions .container .competitions-inner .competition__content .competition__info {
+    margin-bottom: 60px;
+    width: 100%;
+  }
+  main.main section.competitions .container .competitions-inner .competition__content .competition__info img {
+    width: 40px;
+  }
+  main.main section.competitions .container .competitions-inner .competition__content .competition__info h3 {
+    font-size: 30px;
+  }
+  main.main section.competitions .container .competitions-inner .competition__content .competition__info h4 {
     font-size: 18px;
   }
 }/*# sourceMappingURL=media.css.map */
