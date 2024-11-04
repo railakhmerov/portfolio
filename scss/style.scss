@@ -245,7 +245,8 @@ main.main {
                     width: 100%;
                     .competition__info {
                         margin-bottom: 60px;
-                        width: calc(50% - 10px);
+                        width: calc(50% - 30px);
+                        margin: 0 auto;
                         img {
                             margin-bottom: 15px;
                         }

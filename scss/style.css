@@ -241,7 +241,8 @@ main.main section.competitions .container .competitions-inner .competition__cont
 }
 main.main section.competitions .container .competitions-inner .competition__content .competition__info {
   margin-bottom: 60px;
-  width: calc(50% - 10px);
+  width: calc(50% - 30px);
+  margin: 0 auto;
 }
 main.main section.competitions .container .competitions-inner .competition__content .competition__info img {
   margin-bottom: 15px;
