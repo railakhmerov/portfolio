@@ -697,6 +697,9 @@
   main.main section.competitions .container .competitions-inner .competition__content .competition__info h3 {
     font-size: 32px;
   }
+  main.main section.competitions .container .competitions-inner .competition__content .competition__info h4 {
+    font-size: 20px;
+  }
 }
 @media (max-width: 400px) {
   .container {
