@@ -68,6 +68,9 @@ header.header .container .header-inner .header__navigation .header__link:hover {
   transition: all 0.3s ease;
   color: var(--purpur-color);
 }
+header.header .container .header-inner .header__navigation .header__burger-btn {
+  display: none;
+}
 header.header .container .header-inner .header__content .header__content-description {
   width: 40%;
   position: absolute;
@@ -88,10 +91,6 @@ header.header .container .header-inner .header__content .header__content-title {
 header.header .container .header-inner .header__content .header__content-title h2 {
   font-size: 65px;
   color: var(--purpur-color);
-}
-
-.header__burger-btn {
-  display: none;
 }
 
 .body_fixed {
@@ -130,7 +129,7 @@ header.header .container .header-inner .header__content .header__content-title h
   color: var(--purpur-color);
 }
 .burger .burger__content nav.burger__nav_links {
-  margin-bottom: 150px;
+  margin-bottom: 100px;
   display: flex;
   flex-direction: column;
   gap: 20px;

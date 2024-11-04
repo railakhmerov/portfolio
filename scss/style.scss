@@ -60,6 +60,9 @@ header.header {
                     transition: all 0.3s ease;
                     color: var(--purpur-color);
                 }
+                .header__burger-btn {
+                    display: none;
+                }
             }
             .header__content {
                 .header__content-description {
@@ -86,9 +89,6 @@ header.header {
             }
         }
     }
-}
-.header__burger-btn {
-    display: none;
 }
 .body_fixed {
     overflow: hidden;
@@ -123,7 +123,7 @@ header.header {
             }
         }
         nav.burger__nav_links {
-            margin-bottom: 150px;
+            margin-bottom: 100px;
             display: flex;
             flex-direction: column;
             gap: 20px;
@@ -161,7 +161,6 @@ header.header {
         }
     }
 }
-
 main.main {
     margin-bottom: 120px;
     section.projects {

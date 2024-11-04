@@ -45,6 +45,10 @@
     font-size: 60px;
     color: var(--purpur-color);
   }
+  main.main section.projects .container {
+    width: 1000px;
+    margin: 0 auto;
+  }
 }
 @media (max-width: 1100px) {
   header.header .container {
@@ -92,6 +96,10 @@
   header.header .container .header-inner .header__content .header__content-title h2 {
     font-size: 55px;
     color: var(--purpur-color);
+  }
+  main.main section.projects .container {
+    width: 900px;
+    margin: 0 auto;
   }
 }
 @media (max-width: 1000px) {
@@ -141,8 +149,15 @@
     font-size: 55px;
     color: var(--purpur-color);
   }
+  main.main section.projects .container {
+    width: 800px;
+    margin: 0 auto;
+  }
 }
 @media (max-width: 900px) {
+  header.header {
+    margin-bottom: 120px;
+  }
   header.header .container {
     width: 700px;
     margin: 0 auto;
@@ -189,8 +204,15 @@
     font-size: 50px;
     color: var(--purpur-color);
   }
+  main.main section.projects .container {
+    width: 700px;
+    margin: 0 auto;
+  }
 }
 @media (max-width: 780px) {
+  header.header {
+    margin-bottom: 100px;
+  }
   header.header .container {
     width: 100%;
     margin: 0 auto;
@@ -251,6 +273,26 @@
   }
   .body_fixed {
     overflow: hidden;
+  }
+  main.main section.projects .container {
+    width: 100%;
+    margin: 0 auto;
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+  main.main section.projects .container .projects-inner .project__title h2 {
+    font-size: 45px;
+  }
+  main.main section.projects .container .projects-inner .project__cards .card .card__text h2 {
+    font-size: 30px;
+  }
+  main.main section.projects .container .projects-inner .project__cards .card .card__text h3 {
+    font-size: 30px;
+  }
+  main.main section.projects .container .projects-inner .all-projects__btn button {
+    width: 100%;
+    padding: 50px 80px;
+    font-size: 30px;
   }
 }
 @media (max-width: 720px) {
@@ -315,6 +357,39 @@
   }
   .burger .burger__content .burger__contacts .burger__contact-content {
     gap: 15px;
+  }
+  main.main section.projects .container {
+    width: 100%;
+    margin: 0 auto;
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+  main.main section.projects .container .projects-inner .project__title h2 {
+    font-size: 42px;
+  }
+  main.main section.projects .container .projects-inner .project__cards .card .card__text h4 {
+    padding: 10px 20px;
+    position: absolute;
+    top: 40px;
+    left: 35px;
+    font-size: 20px;
+  }
+  main.main section.projects .container .projects-inner .project__cards .card .card__text h2 {
+    position: absolute;
+    bottom: 95px;
+    left: 35px;
+    font-size: 25px;
+  }
+  main.main section.projects .container .projects-inner .project__cards .card .card__text h3 {
+    position: absolute;
+    bottom: 50px;
+    left: 35px;
+    font-size: 25px;
+  }
+  main.main section.projects .container .projects-inner .all-projects__btn button {
+    width: 100%;
+    padding: 50px 80px;
+    font-size: 30px;
   }
 }
 @media (max-width: 600px) {
@@ -387,6 +462,43 @@
   .burger .burger__content .burger__contacts .burger__contact-content {
     gap: 15px;
   }
+  main.main section.projects .container {
+    width: 100%;
+    margin: 0 auto;
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+  main.main section.projects .container .projects-inner .project__title h2 {
+    font-size: 35px;
+  }
+  main.main section.projects .container .projects-inner .project__cards .card .card__image img {
+    width: 100%;
+    height: 400px;
+  }
+  main.main section.projects .container .projects-inner .project__cards .card .card__text h4 {
+    padding: 10px 20px;
+    position: absolute;
+    top: 40px;
+    left: 35px;
+    font-size: 20px;
+  }
+  main.main section.projects .container .projects-inner .project__cards .card .card__text h2 {
+    position: absolute;
+    bottom: 95px;
+    left: 35px;
+    font-size: 30px;
+  }
+  main.main section.projects .container .projects-inner .project__cards .card .card__text h3 {
+    position: absolute;
+    bottom: 50px;
+    left: 35px;
+    font-size: 30px;
+  }
+  main.main section.projects .container .projects-inner .all-projects__btn button {
+    width: 100%;
+    padding: 45px 75px;
+    font-size: 25px;
+  }
 }
 @media (max-width: 500px) {
   header.header .container {
@@ -452,9 +564,6 @@
   .burger .burger__content .burger__logo-wrapper a {
     font-size: 40px;
   }
-  .burger .burger__content nav.burger__nav_links {
-    margin-bottom: 100px;
-  }
   .burger .burger__content nav.burger__nav_links .burger__nav_link {
     font-size: 20px;
   }
@@ -463,6 +572,43 @@
   }
   .burger .burger__content .burger__contacts .burger__contact-content {
     gap: 15px;
+  }
+  main.main section.projects .container {
+    width: 100%;
+    margin: 0 auto;
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+  main.main section.projects .container .projects-inner .project__title h2 {
+    font-size: 35px;
+  }
+  main.main section.projects .container .projects-inner .project__cards .card .card__image img {
+    width: 100%;
+    height: 400px;
+  }
+  main.main section.projects .container .projects-inner .project__cards .card .card__text h4 {
+    padding: 10px 20px;
+    position: absolute;
+    top: 40px;
+    left: 35px;
+    font-size: 20px;
+  }
+  main.main section.projects .container .projects-inner .project__cards .card .card__text h2 {
+    position: absolute;
+    bottom: 95px;
+    left: 35px;
+    font-size: 25px;
+  }
+  main.main section.projects .container .projects-inner .project__cards .card .card__text h3 {
+    position: absolute;
+    bottom: 50px;
+    left: 35px;
+    font-size: 25px;
+  }
+  main.main section.projects .container .projects-inner .all-projects__btn button {
+    width: 100%;
+    padding: 40px 65px;
+    font-size: 22px;
   }
 }
 @media (max-width: 400px) {
@@ -496,6 +642,43 @@
   }
   .burger .burger__content .burger__contacts .burger__contact-content a.burger__contact {
     font-size: 18px;
+  }
+  main.main section.projects .container {
+    width: 100%;
+    margin: 0 auto;
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+  main.main section.projects .container .projects-inner .project__title h2 {
+    font-size: 35px;
+  }
+  main.main section.projects .container .projects-inner .project__cards .card .card__image img {
+    width: 100%;
+    height: 400px;
+  }
+  main.main section.projects .container .projects-inner .project__cards .card .card__text h4 {
+    padding: 10px 20px;
+    position: absolute;
+    top: 40px;
+    left: 35px;
+    font-size: 18px;
+  }
+  main.main section.projects .container .projects-inner .project__cards .card .card__text h2 {
+    position: absolute;
+    bottom: 95px;
+    left: 35px;
+    font-size: 22px;
+  }
+  main.main section.projects .container .projects-inner .project__cards .card .card__text h3 {
+    position: absolute;
+    bottom: 50px;
+    left: 35px;
+    font-size: 22px;
+  }
+  main.main section.projects .container .projects-inner .all-projects__btn button {
+    width: 100%;
+    padding: 35px 50px;
+    font-size: 20px;
   }
 }
 @media (max-width: 380px) {
@@ -555,5 +738,42 @@
   header.header .container .header-inner .header__content .header__content-title h2 {
     font-size: 35px;
     color: var(--purpur-color);
+  }
+  main.main section.projects .container {
+    width: 100%;
+    margin: 0 auto;
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+  main.main section.projects .container .projects-inner .project__title h2 {
+    font-size: 30px;
+  }
+  main.main section.projects .container .projects-inner .project__cards .card .card__image img {
+    width: 100%;
+    height: 400px;
+  }
+  main.main section.projects .container .projects-inner .project__cards .card .card__text h4 {
+    padding: 10px 20px;
+    position: absolute;
+    top: 40px;
+    left: 35px;
+    font-size: 18px;
+  }
+  main.main section.projects .container .projects-inner .project__cards .card .card__text h2 {
+    position: absolute;
+    bottom: 95px;
+    left: 35px;
+    font-size: 22px;
+  }
+  main.main section.projects .container .projects-inner .project__cards .card .card__text h3 {
+    position: absolute;
+    bottom: 50px;
+    left: 35px;
+    font-size: 22px;
+  }
+  main.main section.projects .container .projects-inner .all-projects__btn button {
+    width: 100%;
+    padding: 40px 30px;
+    font-size: 18px;
   }
 }/*# sourceMappingURL=media.css.map */
