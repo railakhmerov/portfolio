@@ -98,6 +98,32 @@
                 }
             }
         }
+        section.skills_for_work {
+            .container {
+                width: 1000px;
+                margin: 0 auto;
+                .skills_for_work-inner {
+                    .skills_for_work__title {
+                        h2 {}
+                    }
+                    .skills_for_work__content {
+                        .item__info {
+                            .content__img {
+                                img {}
+                            }
+                            .content__text {
+                                .content-left {
+                                    h3 {}
+                                }
+                                .content-right {
+                                    h4 {}
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
     }
 }
 @media (max-width: 1100px) {
@@ -196,6 +222,37 @@
                             img {}
                             h3 {}
                             h4 {}
+                        }
+                    }
+                }
+            }
+        }
+        section.skills_for_work {
+            .container {
+                width: 900px;
+                margin: 0 auto;
+                .skills_for_work-inner {
+                    .skills_for_work__title {
+                        h2 {
+                            font-size: 50px;
+                        }
+                    }
+                    .skills_for_work__content {
+                        .item__info {
+                            .content__img {
+                                img {}
+                            }
+                            .content__text {
+                                .content-left {
+                                    h3 {
+                                        max-width: 100%;
+                                        font-size: 45px;
+                                    }
+                                }
+                                .content-right {
+                                    h4 {}
+                                }
+                            }
                         }
                     }
                 }
@@ -304,6 +361,40 @@
                 }
             }
         }
+        section.skills_for_work {
+            .container {
+                width: 800px;
+                margin: 0 auto;
+                .skills_for_work-inner {
+                    .skills_for_work__title {
+                        h2 {
+                            font-size: 50px;
+                        }
+                    }
+                    .skills_for_work__content {
+                        .item__info {
+                            .content__img {
+                                img {}
+                            }
+                            .content__text {
+                                padding: 35px;
+                                .content-left {
+                                    h3 {
+                                        max-width: 100%;
+                                        font-size: 35px;
+                                    }
+                                }
+                                .content-right {
+                                    h4 {
+                                        font-size: 20px;
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
     }
 }
 @media (max-width: 900px) {
@@ -403,6 +494,37 @@
                             img {}
                             h3 {}
                             h4 {}
+                        }
+                    }
+                }
+            }
+        }
+        section.skills_for_work {
+            .container {
+                width: 700px;
+                margin: 0 auto;
+                .skills_for_work-inner {
+                    .skills_for_work__title {
+                        h2 {}
+                    }
+                    .skills_for_work__content {
+                        .item__info {
+                            .content__img {
+                                img {}
+                            }
+                            .content__text {
+                                .content-left {
+                                    h3 {
+                                        max-width: 100%;
+                                        font-size: 30px;
+                                    }
+                                }
+                                .content-right {
+                                    h4 {
+                                        line-height: 25px;
+                                    }
+                                }
+                            }
                         }
                     }
                 }
@@ -539,6 +661,40 @@
                             img {}
                             h3 {}
                             h4 {}
+                        }
+                    }
+                }
+            }
+        }
+        section.skills_for_work {
+            padding-bottom: 100px;
+            .container {
+                width: 100%;
+                margin: 0 auto;
+                padding-left: 20px;
+                padding-right: 20px;
+                .skills_for_work-inner {
+                    .skills_for_work__title {
+                        h2 {}
+                    }
+                    .skills_for_work__content {
+                        .item__info {
+                            .content__img {
+                                img {}
+                            }
+                            .content__text {
+                                .content-left {
+                                    h3 {
+                                        max-width: 100%;
+                                        font-size: 30px;
+                                    }
+                                }
+                                .content-right {
+                                    h4 {
+                                        line-height: 25px;
+                                    }
+                                }
+                            }
                         }
                     }
                 }
@@ -696,6 +852,41 @@
                             img {}
                             h3 {}
                             h4 {}
+                        }
+                    }
+                }
+            }
+        }
+        section.skills_for_work {
+            .container {
+                width: 100%;
+                margin: 0 auto;
+                padding-left: 20px;
+                padding-right: 20px;
+                .skills_for_work-inner {
+                    .skills_for_work__title {
+                        h2 {
+                            font-size: 45px;
+                        }
+                    }
+                    .skills_for_work__content {
+                        .item__info {
+                            .content__img {
+                                img {}
+                            }
+                            .content__text {
+                                .content-left {
+                                    h3 {
+                                        max-width: 100%;
+                                        font-size: 28px;
+                                    }
+                                }
+                                .content-right {
+                                    h4 {
+                                        line-height: 22px;
+                                    }
+                                }
+                            }
                         }
                     }
                 }
@@ -871,6 +1062,51 @@
                 }
             }
         }
+        section.skills_for_work {
+            .container {
+                width: 100%;
+                margin: 0 auto;
+                padding-left: 20px;
+                padding-right: 20px;
+                .skills_for_work-inner {
+                    .skills_for_work__title {
+                        h2 {
+                            font-size: 35px;
+                        }
+                    }
+                    .skills_for_work__content {
+                        .item__info {
+                            .content__img {
+                                img {
+                                    aspect-ratio: 16 / 9;
+                                }
+                            }
+                            .content__text {
+                                padding: 25px;
+                                display: flex;
+                                flex-direction: column;
+                                .content-left {
+                                    margin-bottom: 25px;
+                                    width: 100%;
+                                    h3 {
+                                        max-width: 100%;
+                                        font-size: 40px;
+                                    }
+                                }
+                                .content-right {
+                                    width: 100%;
+
+                                    h4 {
+                                        font-size: 22px;
+                                        line-height: 30px;
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
     }
 }
 @media (max-width: 500px) {
@@ -974,7 +1210,7 @@
                 .projects-inner {
                     .project__title {
                         h2 {
-                            font-size: 35px;
+                            font-size: 40px;
                         }
                     }
                     .project__cards {
@@ -1026,7 +1262,7 @@
                 .competitions-inner {
                     .competition__title {
                         h2 {
-                            font-size: 45px;
+                            font-size: 40px;
                         }
                     }
                     .competition__content {
@@ -1042,6 +1278,51 @@
                             }
                             h4 {
                                 font-size: 20px;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+        section.skills_for_work {
+            .container {
+                width: 100%;
+                margin: 0 auto;
+                padding-left: 20px;
+                padding-right: 20px;
+                .skills_for_work-inner {
+                    .skills_for_work__title {
+                        h2 {
+                            font-size: 35px;
+                        }
+                    }
+                    .skills_for_work__content {
+                        .item__info {
+                            .content__img {
+                                img {
+                                    aspect-ratio: 16 / 9;
+                                }
+                            }
+                            .content__text {
+                                padding: 25px;
+                                display: flex;
+                                flex-direction: column;
+                                .content-left {
+                                    margin-bottom: 25px;
+                                    width: 100%;
+                                    h3 {
+                                        max-width: 100%;
+                                        font-size: 30px;
+                                    }
+                                }
+                                .content-right {
+                                    width: 100%;
+
+                                    h4 {
+                                        font-size: 20px;
+                                        line-height: 25px;
+                                    }
+                                }
                             }
                         }
                     }
@@ -1096,7 +1377,7 @@
                 .projects-inner {
                     .project__title {
                         h2 {
-                            font-size: 35px;
+                            font-size: 32px;
                         }
                     }
                     .project__cards {
@@ -1148,7 +1429,7 @@
                 .competitions-inner {
                     .competition__title {
                         h2 {
-                            font-size: 40px;
+                            font-size: 32px;
                         }
                     }
                     .competition__content {
@@ -1164,6 +1445,51 @@
                             }
                             h4 {
                                 font-size: 20px;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+        section.skills_for_work {
+            .container {
+                width: 100%;
+                margin: 0 auto;
+                padding-left: 20px;
+                padding-right: 20px;
+                .skills_for_work-inner {
+                    .skills_for_work__title {
+                        h2 {
+                            font-size: 32px;
+                        }
+                    }
+                    .skills_for_work__content {
+                        .item__info {
+                            .content__img {
+                                img {
+                                    aspect-ratio: 16 / 9;
+                                }
+                            }
+                            .content__text {
+                                padding: 25px;
+                                display: flex;
+                                flex-direction: column;
+                                .content-left {
+                                    margin-bottom: 25px;
+                                    width: 100%;
+                                    h3 {
+                                        max-width: 100%;
+                                        font-size: 25px;
+                                    }
+                                }
+                                .content-right {
+                                    width: 100%;
+
+                                    h4 {
+                                        font-size: 18px;
+                                        line-height: 25px;
+                                    }
+                                }
                             }
                         }
                     }

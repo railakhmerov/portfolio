@@ -297,7 +297,7 @@ main.main {
                             .content-left {
                                 width: 49%;
                                 h3 {
-                                    width: 400px;
+                                    max-width: 100%;
                                     font-size: 55px;
                                     font-weight: 500;
                                     color: var(--lime-color);

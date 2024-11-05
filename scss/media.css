@@ -53,6 +53,10 @@
     width: 1000px;
     margin: 0 auto;
   }
+  main.main section.skills_for_work .container {
+    width: 1000px;
+    margin: 0 auto;
+  }
 }
 @media (max-width: 1100px) {
   header.header .container {
@@ -112,6 +116,17 @@
   main.main section.competitions .container .competitions-inner .competition__content .competition__info {
     margin-bottom: 60px;
   }
+  main.main section.skills_for_work .container {
+    width: 900px;
+    margin: 0 auto;
+  }
+  main.main section.skills_for_work .container .skills_for_work-inner .skills_for_work__title h2 {
+    font-size: 50px;
+  }
+  main.main section.skills_for_work .container .skills_for_work-inner .skills_for_work__content .item__info .content__text .content-left h3 {
+    max-width: 100%;
+    font-size: 45px;
+  }
 }
 @media (max-width: 1000px) {
   header.header .container {
@@ -170,6 +185,23 @@
   }
   main.main section.competitions .container .competitions-inner .competition__content .competition__info {
     margin-bottom: 60px;
+  }
+  main.main section.skills_for_work .container {
+    width: 800px;
+    margin: 0 auto;
+  }
+  main.main section.skills_for_work .container .skills_for_work-inner .skills_for_work__title h2 {
+    font-size: 50px;
+  }
+  main.main section.skills_for_work .container .skills_for_work-inner .skills_for_work__content .item__info .content__text {
+    padding: 35px;
+  }
+  main.main section.skills_for_work .container .skills_for_work-inner .skills_for_work__content .item__info .content__text .content-left h3 {
+    max-width: 100%;
+    font-size: 35px;
+  }
+  main.main section.skills_for_work .container .skills_for_work-inner .skills_for_work__content .item__info .content__text .content-right h4 {
+    font-size: 20px;
   }
 }
 @media (max-width: 900px) {
@@ -232,6 +264,17 @@
   }
   main.main section.competitions .container .competitions-inner .competition__content .competition__info {
     margin-bottom: 60px;
+  }
+  main.main section.skills_for_work .container {
+    width: 700px;
+    margin: 0 auto;
+  }
+  main.main section.skills_for_work .container .skills_for_work-inner .skills_for_work__content .item__info .content__text .content-left h3 {
+    max-width: 100%;
+    font-size: 30px;
+  }
+  main.main section.skills_for_work .container .skills_for_work-inner .skills_for_work__content .item__info .content__text .content-right h4 {
+    line-height: 25px;
   }
 }
 @media (max-width: 780px) {
@@ -333,6 +376,22 @@
   }
   main.main section.competitions .container .competitions-inner .competition__content .competition__info {
     margin-bottom: 60px;
+  }
+  main.main section.skills_for_work {
+    padding-bottom: 100px;
+  }
+  main.main section.skills_for_work .container {
+    width: 100%;
+    margin: 0 auto;
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+  main.main section.skills_for_work .container .skills_for_work-inner .skills_for_work__content .item__info .content__text .content-left h3 {
+    max-width: 100%;
+    font-size: 30px;
+  }
+  main.main section.skills_for_work .container .skills_for_work-inner .skills_for_work__content .item__info .content__text .content-right h4 {
+    line-height: 25px;
   }
 }
 @media (max-width: 720px) {
@@ -439,6 +498,22 @@
   }
   main.main section.competitions .container .competitions-inner .competition__content .competition__info {
     margin-bottom: 60px;
+  }
+  main.main section.skills_for_work .container {
+    width: 100%;
+    margin: 0 auto;
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+  main.main section.skills_for_work .container .skills_for_work-inner .skills_for_work__title h2 {
+    font-size: 45px;
+  }
+  main.main section.skills_for_work .container .skills_for_work-inner .skills_for_work__content .item__info .content__text .content-left h3 {
+    max-width: 100%;
+    font-size: 28px;
+  }
+  main.main section.skills_for_work .container .skills_for_work-inner .skills_for_work__content .item__info .content__text .content-right h4 {
+    line-height: 22px;
   }
 }
 @media (max-width: 600px) {
@@ -564,6 +639,38 @@
     margin-bottom: 60px;
     width: 100%;
   }
+  main.main section.skills_for_work .container {
+    width: 100%;
+    margin: 0 auto;
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+  main.main section.skills_for_work .container .skills_for_work-inner .skills_for_work__title h2 {
+    font-size: 35px;
+  }
+  main.main section.skills_for_work .container .skills_for_work-inner .skills_for_work__content .item__info .content__img img {
+    aspect-ratio: 16/9;
+  }
+  main.main section.skills_for_work .container .skills_for_work-inner .skills_for_work__content .item__info .content__text {
+    padding: 25px;
+    display: flex;
+    flex-direction: column;
+  }
+  main.main section.skills_for_work .container .skills_for_work-inner .skills_for_work__content .item__info .content__text .content-left {
+    margin-bottom: 25px;
+    width: 100%;
+  }
+  main.main section.skills_for_work .container .skills_for_work-inner .skills_for_work__content .item__info .content__text .content-left h3 {
+    max-width: 100%;
+    font-size: 40px;
+  }
+  main.main section.skills_for_work .container .skills_for_work-inner .skills_for_work__content .item__info .content__text .content-right {
+    width: 100%;
+  }
+  main.main section.skills_for_work .container .skills_for_work-inner .skills_for_work__content .item__info .content__text .content-right h4 {
+    font-size: 22px;
+    line-height: 30px;
+  }
 }
 @media (max-width: 500px) {
   header.header .container {
@@ -645,7 +752,7 @@
     padding-right: 20px;
   }
   main.main section.projects .container .projects-inner .project__title h2 {
-    font-size: 35px;
+    font-size: 40px;
   }
   main.main section.projects .container .projects-inner .project__cards .card .card__image img {
     width: 100%;
@@ -682,7 +789,7 @@
     padding-right: 20px;
   }
   main.main section.competitions .container .competitions-inner .competition__title h2 {
-    font-size: 45px;
+    font-size: 40px;
   }
   main.main section.competitions .container .competitions-inner .competition__content {
     display: block;
@@ -699,6 +806,38 @@
   }
   main.main section.competitions .container .competitions-inner .competition__content .competition__info h4 {
     font-size: 20px;
+  }
+  main.main section.skills_for_work .container {
+    width: 100%;
+    margin: 0 auto;
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+  main.main section.skills_for_work .container .skills_for_work-inner .skills_for_work__title h2 {
+    font-size: 35px;
+  }
+  main.main section.skills_for_work .container .skills_for_work-inner .skills_for_work__content .item__info .content__img img {
+    aspect-ratio: 16/9;
+  }
+  main.main section.skills_for_work .container .skills_for_work-inner .skills_for_work__content .item__info .content__text {
+    padding: 25px;
+    display: flex;
+    flex-direction: column;
+  }
+  main.main section.skills_for_work .container .skills_for_work-inner .skills_for_work__content .item__info .content__text .content-left {
+    margin-bottom: 25px;
+    width: 100%;
+  }
+  main.main section.skills_for_work .container .skills_for_work-inner .skills_for_work__content .item__info .content__text .content-left h3 {
+    max-width: 100%;
+    font-size: 30px;
+  }
+  main.main section.skills_for_work .container .skills_for_work-inner .skills_for_work__content .item__info .content__text .content-right {
+    width: 100%;
+  }
+  main.main section.skills_for_work .container .skills_for_work-inner .skills_for_work__content .item__info .content__text .content-right h4 {
+    font-size: 20px;
+    line-height: 25px;
   }
 }
 @media (max-width: 400px) {
@@ -740,7 +879,7 @@
     padding-right: 20px;
   }
   main.main section.projects .container .projects-inner .project__title h2 {
-    font-size: 35px;
+    font-size: 32px;
   }
   main.main section.projects .container .projects-inner .project__cards .card .card__image img {
     width: 100%;
@@ -777,7 +916,7 @@
     padding-right: 20px;
   }
   main.main section.competitions .container .competitions-inner .competition__title h2 {
-    font-size: 40px;
+    font-size: 32px;
   }
   main.main section.competitions .container .competitions-inner .competition__content {
     display: block;
@@ -794,6 +933,38 @@
   }
   main.main section.competitions .container .competitions-inner .competition__content .competition__info h4 {
     font-size: 20px;
+  }
+  main.main section.skills_for_work .container {
+    width: 100%;
+    margin: 0 auto;
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+  main.main section.skills_for_work .container .skills_for_work-inner .skills_for_work__title h2 {
+    font-size: 32px;
+  }
+  main.main section.skills_for_work .container .skills_for_work-inner .skills_for_work__content .item__info .content__img img {
+    aspect-ratio: 16/9;
+  }
+  main.main section.skills_for_work .container .skills_for_work-inner .skills_for_work__content .item__info .content__text {
+    padding: 25px;
+    display: flex;
+    flex-direction: column;
+  }
+  main.main section.skills_for_work .container .skills_for_work-inner .skills_for_work__content .item__info .content__text .content-left {
+    margin-bottom: 25px;
+    width: 100%;
+  }
+  main.main section.skills_for_work .container .skills_for_work-inner .skills_for_work__content .item__info .content__text .content-left h3 {
+    max-width: 100%;
+    font-size: 25px;
+  }
+  main.main section.skills_for_work .container .skills_for_work-inner .skills_for_work__content .item__info .content__text .content-right {
+    width: 100%;
+  }
+  main.main section.skills_for_work .container .skills_for_work-inner .skills_for_work__content .item__info .content__text .content-right h4 {
+    font-size: 18px;
+    line-height: 25px;
   }
 }
 @media (max-width: 380px) {

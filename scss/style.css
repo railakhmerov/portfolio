@@ -288,7 +288,7 @@ main.main section.skills_for_work .container .skills_for_work-inner .skills_for_
   width: 49%;
 }
 main.main section.skills_for_work .container .skills_for_work-inner .skills_for_work__content .item__info .content__text .content-left h3 {
-  width: 400px;
+  max-width: 100%;
   font-size: 55px;
   font-weight: 500;
   color: var(--lime-color);
