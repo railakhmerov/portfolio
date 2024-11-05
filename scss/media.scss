@@ -124,6 +124,47 @@
                 }
             }
         }
+        section.contacts {
+            .container {
+                width: 1000px;
+                margin: 0 auto;
+                .contacts-inner {
+                    .contact__sides {
+                        .contact__left {
+                            .contact__left-title {
+                                h2 {
+                                }
+                            }
+                            .contact__left-inputs {
+                                #contact-name {
+                                }
+                                #contact-name::placeholder {
+                                }
+                                #contact-name:active, :focus {
+                                }
+            
+                                #contact-mail {
+                                }
+                                #contact-mail::placeholder {
+                                }
+                                #contact-mail:active, :focus {
+                                }
+                            }
+                        }
+                        .contact__right {
+                            img.contact__img-notebook {
+                            }
+                            img.contact__img-developer {
+                            }
+                        }
+                    }
+                    .contact__btn {
+                        button {
+                        }
+                    }
+                }
+            }
+        }
     }
 }
 @media (max-width: 1100px) {
@@ -253,6 +294,59 @@
                                     h4 {}
                                 }
                             }
+                        }
+                    }
+                }
+            }
+        }
+        section.contacts {
+            .container {
+                width: 900px;
+                margin: 0 auto;
+                .contacts-inner {
+                    .contact__sides {
+                        .contact__left {
+                            .contact__left-title {
+                                h2 {
+                                    font-size: 50px;
+                                }
+                            }
+                            .contact__left-inputs {
+                                #contact-name {
+                                    padding: 18px 30px;
+                                    font-size: 22px;
+                                }
+                                #contact-name::placeholder {
+                                }
+                                #contact-name:active, :focus {
+                                }
+            
+                                #contact-mail {
+                                }
+                                #contact-mail::placeholder {
+                                }
+                                #contact-mail:active, :focus {
+                                }
+                            }
+                        }
+                        .contact__right {
+                            position: relative;
+                            img.contact__img-notebook {
+                                width: 400px;
+                                position: absolute;
+                                top: 70px;
+                                right: 10px;
+                                z-index: 5;
+                            }
+                            img.contact__img-developer {
+                                position: absolute;
+                                top: -50px;
+                                right: -20px;
+                            }
+                        }
+                    }
+                    .contact__btn {
+                        button {
                         }
                     }
                 }
@@ -395,6 +489,60 @@
                 }
             }
         }
+        section.contacts {
+            .container {
+                width: 800px;
+                margin: 0 auto;
+                .contacts-inner {
+                    .contact__sides {
+                        .contact__left {
+                            .contact__left-title {
+                                h2 {
+                                    font-size: 50px;
+                                }
+                            }
+                            .contact__left-inputs {
+                                #contact-name {
+                                    padding: 18px 30px;
+                                    font-size: 22px;
+                                }
+                                #contact-name::placeholder {
+                                }
+                                #contact-name:active, :focus {
+                                }
+            
+                                #contact-mail {
+                                }
+                                #contact-mail::placeholder {
+                                }
+                                #contact-mail:active, :focus {
+                                }
+                            }
+                        }
+                        .contact__right {
+                            position: relative;
+                            img.contact__img-notebook {
+                                width: 300px;
+                                position: absolute;
+                                top: 95px;
+                                right: 15px;
+                                z-index: 5;
+                            }
+                            img.contact__img-developer {
+                                width: 280px;
+                                position: absolute;
+                                top: -50px;
+                                right: -40px;
+                            }
+                        }
+                    }
+                    .contact__btn {
+                        button {
+                        }
+                    }
+                }
+            }
+        }
     }
 }
 @media (max-width: 900px) {
@@ -530,6 +678,60 @@
                 }
             }
         }
+        section.contacts {
+            .container {
+                width: 700px;
+                margin: 0 auto;
+                .contacts-inner {
+                    .contact__sides {
+                        .contact__left {
+                            .contact__left-title {
+                                h2 {
+                                    font-size: 50px;
+                                }
+                            }
+                            .contact__left-inputs {
+                                #contact-name {
+                                    padding: 18px 30px;
+                                    font-size: 22px;
+                                }
+                                #contact-name::placeholder {
+                                }
+                                #contact-name:active, :focus {
+                                }
+            
+                                #contact-mail {
+                                }
+                                #contact-mail::placeholder {
+                                }
+                                #contact-mail:active, :focus {
+                                }
+                            }
+                        }
+                        .contact__right {
+                            position: relative;
+                            img.contact__img-notebook {
+                                width: 300px;
+                                position: absolute;
+                                top: 95px;
+                                right: 15px;
+                                z-index: 5;
+                            }
+                            img.contact__img-developer {
+                                width: 280px;
+                                position: absolute;
+                                top: -50px;
+                                right: -40px;
+                            }
+                        }
+                    }
+                    .contact__btn {
+                        button {
+                        }
+                    }
+                }
+            }
+        }
     }
 }
 @media (max-width: 780px) { // под экран, где будет burger menu
@@ -604,6 +806,7 @@
         overflow: hidden;
     }
     main.main {
+        margin-bottom: 100px;
         section.projects {
             margin-bottom: 100px;
             .container {
@@ -695,6 +898,70 @@
                                     }
                                 }
                             }
+                        }
+                    }
+                }
+            }
+        }
+        section.contacts {
+            margin-top: 100px;
+            .container {
+                width: 100%;
+                margin: 0 auto;
+                padding-left: 20px;
+                padding-right: 20px;
+                .contacts-inner {
+                    .contact__sides {
+                        width: 100%;
+                        display: block;
+                        .contact__left {
+                            width: 100%;
+                            .contact__left-title {
+                                h2 {
+                                    width: 100%;
+                                    font-size: 50px;
+                                }
+                            }
+                            .contact__left-inputs {
+                                width: 70%;
+                                #contact-name {
+                                    padding: 18px 30px;
+                                    font-size: 22px;
+                                }
+                                #contact-name::placeholder {
+                                }
+                                #contact-name:active, :focus {
+                                }
+            
+                                #contact-mail {
+                                }
+                                #contact-mail::placeholder {
+                                }
+                                #contact-mail:active, :focus {
+                                }
+                            }
+                        }
+                        .contact__right {
+                            display: none;
+                            img.contact__img-notebook {
+                                width: 250px;
+                                position: absolute;
+                                top: 95px;
+                                right: 15px;
+                                z-index: 5;
+                            }
+                            img.contact__img-developer {
+                                width: 230px;
+                                position: absolute;
+                                top: -50px;
+                                right: -40px;
+                            }
+                        }
+                    }
+                    .contact__btn {
+                        button {
+                            padding: 25px 100px;
+                            font-size: 22px;
                         }
                     }
                 }
@@ -887,6 +1154,68 @@
                                     }
                                 }
                             }
+                        }
+                    }
+                }
+            }
+        }
+        section.contacts {
+            .container {
+                width: 100%;
+                margin: 0 auto;
+                padding-left: 20px;
+                padding-right: 20px;
+                .contacts-inner {
+                    .contact__sides {
+                        width: 100%;
+                        display: block;
+                        .contact__left {
+                            width: 100%;
+                            .contact__left-title {
+                                h2 {
+                                    font-size: 40px;
+                                    font-weight: 500;
+                                }
+                            }
+                            .contact__left-inputs {
+                                #contact-name {
+                                    padding: 18px 30px;
+                                    font-size: 22px;
+                                }
+                                #contact-name::placeholder {
+                                }
+                                #contact-name:active, :focus {
+                                }
+            
+                                #contact-mail {
+                                }
+                                #contact-mail::placeholder {
+                                }
+                                #contact-mail:active, :focus {
+                                }
+                            }
+                        }
+                        .contact__right {
+                            display: none;
+                            img.contact__img-notebook {
+                                width: 250px;
+                                position: absolute;
+                                top: 95px;
+                                right: 15px;
+                                z-index: 5;
+                            }
+                            img.contact__img-developer {
+                                width: 230px;
+                                position: absolute;
+                                top: -50px;
+                                right: -40px;
+                            }
+                        }
+                    }
+                    .contact__btn {
+                        button {
+                            padding: 25px 100px;
+                            font-size: 22px;
                         }
                     }
                 }
@@ -1102,6 +1431,69 @@
                                     }
                                 }
                             }
+                        }
+                    }
+                }
+            }
+        }
+        section.contacts {
+            .container {
+                width: 100%;
+                margin: 0 auto;
+                padding-left: 20px;
+                padding-right: 20px;
+                .contacts-inner {
+                    .contact__sides {
+                        width: 100%;
+                        display: block;
+                        .contact__left {
+                            width: 100%;
+                            .contact__left-title {
+                                h2 {
+                                    width: 100%;
+                                }
+                            }
+                            .contact__left-inputs {
+                                width: 100%;
+                                #contact-name {
+                                    padding: 18px 30px;
+                                    font-size: 22px;
+                                }
+                                #contact-name::placeholder {
+                                }
+                                #contact-name:active, :focus {
+                                }
+            
+                                #contact-mail {
+                                }
+                                #contact-mail::placeholder {
+                                }
+                                #contact-mail:active, :focus {
+                                }
+                            }
+                        }
+                        .contact__right {
+                            display: none;
+                            img.contact__img-notebook {
+                                width: 250px;
+                                position: absolute;
+                                top: 95px;
+                                right: 15px;
+                                z-index: 5;
+                            }
+                            img.contact__img-developer {
+                                width: 230px;
+                                position: absolute;
+                                top: -50px;
+                                right: -40px;
+                            }
+                        }
+                    }
+                    .contact__btn {
+                        button {
+                            width: 100%;
+                            padding: 25px 100px;
+                            font-size: 22px;
                         }
                     }
                 }
@@ -1329,6 +1721,69 @@
                 }
             }
         }
+        section.contacts {
+            .container {
+                width: 100%;
+                margin: 0 auto;
+                padding-left: 20px;
+                padding-right: 20px;
+                .contacts-inner {
+                    .contact__sides {
+                        width: 100%;
+                        display: block;
+                        .contact__left {
+                            width: 100%;
+                            .contact__left-title {
+                                h2 {
+                                    font-size: 32px;
+                                    width: 100%;
+                                }
+                            }
+                            .contact__left-inputs {
+                                width: 100%;
+                                #contact-name {
+                                    padding: 18px 30px;
+                                    font-size: 22px;
+                                }
+                                #contact-name::placeholder {
+                                }
+                                #contact-name:active, :focus {
+                                }
+            
+                                #contact-mail {
+                                }
+                                #contact-mail::placeholder {
+                                }
+                                #contact-mail:active, :focus {
+                                }
+                            }
+                        }
+                        .contact__right {
+                            display: none;
+                            img.contact__img-notebook {
+                                width: 250px;
+                                position: absolute;
+                                top: 95px;
+                                right: 15px;
+                                z-index: 5;
+                            }
+                            img.contact__img-developer {
+                                width: 230px;
+                                position: absolute;
+                                top: -50px;
+                                right: -40px;
+                            }
+                        }
+                    }
+                    .contact__btn {
+                        button {
+                            padding: 25px 100px;
+                            font-size: 22px;
+                        }
+                    }
+                }
+            }
+        }
     }
 }
 @media (max-width: 400px) {
@@ -1491,6 +1946,70 @@
                                     }
                                 }
                             }
+                        }
+                    }
+                }
+            }
+        }
+        section.contacts {
+            .container {
+                width: 100%;
+                margin: 0 auto;
+                padding-left: 20px;
+                padding-right: 20px;
+                .contacts-inner {
+                    .contact__sides {
+                        width: 100%;
+                        display: block;
+                        .contact__left {
+                            width: 100%;
+                            .contact__left-title {
+                                h2 {
+                                    width: 100%;
+                                }
+                            }
+                            .contact__left-inputs {
+                                width: 100%;
+                                #contact-name {
+                                    padding: 18px 30px;
+                                    font-size: 20px;
+                                }
+                                #contact-name::placeholder {
+                                }
+                                #contact-name:active, :focus {
+                                }
+            
+                                #contact-mail {
+                                    font-size: 20px;
+                                }
+                                #contact-mail::placeholder {
+                                }
+                                #contact-mail:active, :focus {
+                                }
+                            }
+                        }
+                        .contact__right {
+                            display: none;
+                            img.contact__img-notebook {
+                                width: 250px;
+                                position: absolute;
+                                top: 95px;
+                                right: 15px;
+                                z-index: 5;
+                            }
+                            img.contact__img-developer {
+                                width: 230px;
+                                position: absolute;
+                                top: -50px;
+                                right: -40px;
+                            }
+                        }
+                    }
+                    .contact__btn {
+                        button {
+                            width: 100%;
+                            padding: 25px 100px;
+                            font-size: 20px;
                         }
                     }
                 }

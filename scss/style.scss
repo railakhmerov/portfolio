@@ -332,8 +332,8 @@ main.main {
                     .contact__left {
                         width: 50%;
                         .contact__left-title {
+                            margin-bottom: 60px;
                             h2 {
-                                margin-bottom: 60px;
                                 width: 500px;
                                 font-size: 60px;
                             }
@@ -397,8 +397,8 @@ main.main {
                         padding: 20px 100px;
                         border: none;
                         border-radius: 10px;
-                        cursor: pointer;
                         font-size: 22px;
+                        cursor: pointer;
                         background-color: var(--lime-color);
                     }
                 }

@@ -316,8 +316,10 @@ main.main section.contacts .container .contacts-inner .contact__sides {
 main.main section.contacts .container .contacts-inner .contact__sides .contact__left {
   width: 50%;
 }
-main.main section.contacts .container .contacts-inner .contact__sides .contact__left .contact__left-title h2 {
+main.main section.contacts .container .contacts-inner .contact__sides .contact__left .contact__left-title {
   margin-bottom: 60px;
+}
+main.main section.contacts .container .contacts-inner .contact__sides .contact__left .contact__left-title h2 {
   width: 500px;
   font-size: 60px;
 }
@@ -382,8 +384,8 @@ main.main section.contacts .container .contacts-inner .contact__btn button {
   padding: 20px 100px;
   border: none;
   border-radius: 10px;
-  cursor: pointer;
   font-size: 22px;
+  cursor: pointer;
   background-color: var(--lime-color);
 }
 

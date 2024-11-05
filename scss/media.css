@@ -57,6 +57,10 @@
     width: 1000px;
     margin: 0 auto;
   }
+  main.main section.contacts .container {
+    width: 1000px;
+    margin: 0 auto;
+  }
 }
 @media (max-width: 1100px) {
   header.header .container {
@@ -126,6 +130,32 @@
   main.main section.skills_for_work .container .skills_for_work-inner .skills_for_work__content .item__info .content__text .content-left h3 {
     max-width: 100%;
     font-size: 45px;
+  }
+  main.main section.contacts .container {
+    width: 900px;
+    margin: 0 auto;
+  }
+  main.main section.contacts .container .contacts-inner .contact__sides .contact__left .contact__left-title h2 {
+    font-size: 50px;
+  }
+  main.main section.contacts .container .contacts-inner .contact__sides .contact__left .contact__left-inputs #contact-name {
+    padding: 18px 30px;
+    font-size: 22px;
+  }
+  main.main section.contacts .container .contacts-inner .contact__sides .contact__right {
+    position: relative;
+  }
+  main.main section.contacts .container .contacts-inner .contact__sides .contact__right img.contact__img-notebook {
+    width: 400px;
+    position: absolute;
+    top: 70px;
+    right: 10px;
+    z-index: 5;
+  }
+  main.main section.contacts .container .contacts-inner .contact__sides .contact__right img.contact__img-developer {
+    position: absolute;
+    top: -50px;
+    right: -20px;
   }
 }
 @media (max-width: 1000px) {
@@ -203,6 +233,33 @@
   main.main section.skills_for_work .container .skills_for_work-inner .skills_for_work__content .item__info .content__text .content-right h4 {
     font-size: 20px;
   }
+  main.main section.contacts .container {
+    width: 800px;
+    margin: 0 auto;
+  }
+  main.main section.contacts .container .contacts-inner .contact__sides .contact__left .contact__left-title h2 {
+    font-size: 50px;
+  }
+  main.main section.contacts .container .contacts-inner .contact__sides .contact__left .contact__left-inputs #contact-name {
+    padding: 18px 30px;
+    font-size: 22px;
+  }
+  main.main section.contacts .container .contacts-inner .contact__sides .contact__right {
+    position: relative;
+  }
+  main.main section.contacts .container .contacts-inner .contact__sides .contact__right img.contact__img-notebook {
+    width: 300px;
+    position: absolute;
+    top: 95px;
+    right: 15px;
+    z-index: 5;
+  }
+  main.main section.contacts .container .contacts-inner .contact__sides .contact__right img.contact__img-developer {
+    width: 280px;
+    position: absolute;
+    top: -50px;
+    right: -40px;
+  }
 }
 @media (max-width: 900px) {
   header.header {
@@ -276,6 +333,33 @@
   main.main section.skills_for_work .container .skills_for_work-inner .skills_for_work__content .item__info .content__text .content-right h4 {
     line-height: 25px;
   }
+  main.main section.contacts .container {
+    width: 700px;
+    margin: 0 auto;
+  }
+  main.main section.contacts .container .contacts-inner .contact__sides .contact__left .contact__left-title h2 {
+    font-size: 50px;
+  }
+  main.main section.contacts .container .contacts-inner .contact__sides .contact__left .contact__left-inputs #contact-name {
+    padding: 18px 30px;
+    font-size: 22px;
+  }
+  main.main section.contacts .container .contacts-inner .contact__sides .contact__right {
+    position: relative;
+  }
+  main.main section.contacts .container .contacts-inner .contact__sides .contact__right img.contact__img-notebook {
+    width: 300px;
+    position: absolute;
+    top: 95px;
+    right: 15px;
+    z-index: 5;
+  }
+  main.main section.contacts .container .contacts-inner .contact__sides .contact__right img.contact__img-developer {
+    width: 280px;
+    position: absolute;
+    top: -50px;
+    right: -40px;
+  }
 }
 @media (max-width: 780px) {
   header.header {
@@ -342,6 +426,9 @@
   .body_fixed {
     overflow: hidden;
   }
+  main.main {
+    margin-bottom: 100px;
+  }
   main.main section.projects {
     margin-bottom: 100px;
   }
@@ -392,6 +479,53 @@
   }
   main.main section.skills_for_work .container .skills_for_work-inner .skills_for_work__content .item__info .content__text .content-right h4 {
     line-height: 25px;
+  }
+  main.main section.contacts {
+    margin-top: 100px;
+  }
+  main.main section.contacts .container {
+    width: 100%;
+    margin: 0 auto;
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+  main.main section.contacts .container .contacts-inner .contact__sides {
+    width: 100%;
+    display: block;
+  }
+  main.main section.contacts .container .contacts-inner .contact__sides .contact__left {
+    width: 100%;
+  }
+  main.main section.contacts .container .contacts-inner .contact__sides .contact__left .contact__left-title h2 {
+    width: 100%;
+    font-size: 50px;
+  }
+  main.main section.contacts .container .contacts-inner .contact__sides .contact__left .contact__left-inputs {
+    width: 70%;
+  }
+  main.main section.contacts .container .contacts-inner .contact__sides .contact__left .contact__left-inputs #contact-name {
+    padding: 18px 30px;
+    font-size: 22px;
+  }
+  main.main section.contacts .container .contacts-inner .contact__sides .contact__right {
+    display: none;
+  }
+  main.main section.contacts .container .contacts-inner .contact__sides .contact__right img.contact__img-notebook {
+    width: 250px;
+    position: absolute;
+    top: 95px;
+    right: 15px;
+    z-index: 5;
+  }
+  main.main section.contacts .container .contacts-inner .contact__sides .contact__right img.contact__img-developer {
+    width: 230px;
+    position: absolute;
+    top: -50px;
+    right: -40px;
+  }
+  main.main section.contacts .container .contacts-inner .contact__btn button {
+    padding: 25px 100px;
+    font-size: 22px;
   }
 }
 @media (max-width: 720px) {
@@ -514,6 +648,47 @@
   }
   main.main section.skills_for_work .container .skills_for_work-inner .skills_for_work__content .item__info .content__text .content-right h4 {
     line-height: 22px;
+  }
+  main.main section.contacts .container {
+    width: 100%;
+    margin: 0 auto;
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+  main.main section.contacts .container .contacts-inner .contact__sides {
+    width: 100%;
+    display: block;
+  }
+  main.main section.contacts .container .contacts-inner .contact__sides .contact__left {
+    width: 100%;
+  }
+  main.main section.contacts .container .contacts-inner .contact__sides .contact__left .contact__left-title h2 {
+    font-size: 40px;
+    font-weight: 500;
+  }
+  main.main section.contacts .container .contacts-inner .contact__sides .contact__left .contact__left-inputs #contact-name {
+    padding: 18px 30px;
+    font-size: 22px;
+  }
+  main.main section.contacts .container .contacts-inner .contact__sides .contact__right {
+    display: none;
+  }
+  main.main section.contacts .container .contacts-inner .contact__sides .contact__right img.contact__img-notebook {
+    width: 250px;
+    position: absolute;
+    top: 95px;
+    right: 15px;
+    z-index: 5;
+  }
+  main.main section.contacts .container .contacts-inner .contact__sides .contact__right img.contact__img-developer {
+    width: 230px;
+    position: absolute;
+    top: -50px;
+    right: -40px;
+  }
+  main.main section.contacts .container .contacts-inner .contact__btn button {
+    padding: 25px 100px;
+    font-size: 22px;
   }
 }
 @media (max-width: 600px) {
@@ -670,6 +845,50 @@
   main.main section.skills_for_work .container .skills_for_work-inner .skills_for_work__content .item__info .content__text .content-right h4 {
     font-size: 22px;
     line-height: 30px;
+  }
+  main.main section.contacts .container {
+    width: 100%;
+    margin: 0 auto;
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+  main.main section.contacts .container .contacts-inner .contact__sides {
+    width: 100%;
+    display: block;
+  }
+  main.main section.contacts .container .contacts-inner .contact__sides .contact__left {
+    width: 100%;
+  }
+  main.main section.contacts .container .contacts-inner .contact__sides .contact__left .contact__left-title h2 {
+    width: 100%;
+  }
+  main.main section.contacts .container .contacts-inner .contact__sides .contact__left .contact__left-inputs {
+    width: 100%;
+  }
+  main.main section.contacts .container .contacts-inner .contact__sides .contact__left .contact__left-inputs #contact-name {
+    padding: 18px 30px;
+    font-size: 22px;
+  }
+  main.main section.contacts .container .contacts-inner .contact__sides .contact__right {
+    display: none;
+  }
+  main.main section.contacts .container .contacts-inner .contact__sides .contact__right img.contact__img-notebook {
+    width: 250px;
+    position: absolute;
+    top: 95px;
+    right: 15px;
+    z-index: 5;
+  }
+  main.main section.contacts .container .contacts-inner .contact__sides .contact__right img.contact__img-developer {
+    width: 230px;
+    position: absolute;
+    top: -50px;
+    right: -40px;
+  }
+  main.main section.contacts .container .contacts-inner .contact__btn button {
+    width: 100%;
+    padding: 25px 100px;
+    font-size: 22px;
   }
 }
 @media (max-width: 500px) {
@@ -839,6 +1058,50 @@
     font-size: 20px;
     line-height: 25px;
   }
+  main.main section.contacts .container {
+    width: 100%;
+    margin: 0 auto;
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+  main.main section.contacts .container .contacts-inner .contact__sides {
+    width: 100%;
+    display: block;
+  }
+  main.main section.contacts .container .contacts-inner .contact__sides .contact__left {
+    width: 100%;
+  }
+  main.main section.contacts .container .contacts-inner .contact__sides .contact__left .contact__left-title h2 {
+    font-size: 32px;
+    width: 100%;
+  }
+  main.main section.contacts .container .contacts-inner .contact__sides .contact__left .contact__left-inputs {
+    width: 100%;
+  }
+  main.main section.contacts .container .contacts-inner .contact__sides .contact__left .contact__left-inputs #contact-name {
+    padding: 18px 30px;
+    font-size: 22px;
+  }
+  main.main section.contacts .container .contacts-inner .contact__sides .contact__right {
+    display: none;
+  }
+  main.main section.contacts .container .contacts-inner .contact__sides .contact__right img.contact__img-notebook {
+    width: 250px;
+    position: absolute;
+    top: 95px;
+    right: 15px;
+    z-index: 5;
+  }
+  main.main section.contacts .container .contacts-inner .contact__sides .contact__right img.contact__img-developer {
+    width: 230px;
+    position: absolute;
+    top: -50px;
+    right: -40px;
+  }
+  main.main section.contacts .container .contacts-inner .contact__btn button {
+    padding: 25px 100px;
+    font-size: 22px;
+  }
 }
 @media (max-width: 400px) {
   .container {
@@ -965,6 +1228,53 @@
   main.main section.skills_for_work .container .skills_for_work-inner .skills_for_work__content .item__info .content__text .content-right h4 {
     font-size: 18px;
     line-height: 25px;
+  }
+  main.main section.contacts .container {
+    width: 100%;
+    margin: 0 auto;
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+  main.main section.contacts .container .contacts-inner .contact__sides {
+    width: 100%;
+    display: block;
+  }
+  main.main section.contacts .container .contacts-inner .contact__sides .contact__left {
+    width: 100%;
+  }
+  main.main section.contacts .container .contacts-inner .contact__sides .contact__left .contact__left-title h2 {
+    width: 100%;
+  }
+  main.main section.contacts .container .contacts-inner .contact__sides .contact__left .contact__left-inputs {
+    width: 100%;
+  }
+  main.main section.contacts .container .contacts-inner .contact__sides .contact__left .contact__left-inputs #contact-name {
+    padding: 18px 30px;
+    font-size: 20px;
+  }
+  main.main section.contacts .container .contacts-inner .contact__sides .contact__left .contact__left-inputs #contact-mail {
+    font-size: 20px;
+  }
+  main.main section.contacts .container .contacts-inner .contact__sides .contact__right {
+    display: none;
+  }
+  main.main section.contacts .container .contacts-inner .contact__sides .contact__right img.contact__img-notebook {
+    width: 250px;
+    position: absolute;
+    top: 95px;
+    right: 15px;
+    z-index: 5;
+  }
+  main.main section.contacts .container .contacts-inner .contact__sides .contact__right img.contact__img-developer {
+    width: 230px;
+    position: absolute;
+    top: -50px;
+    right: -40px;
+  }
+  main.main section.contacts .container .contacts-inner .contact__btn button {
+    width: 100%;
+    padding: 25px 100px;
+    font-size: 20px;
   }
 }
 @media (max-width: 380px) {
