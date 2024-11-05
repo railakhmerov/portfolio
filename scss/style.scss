@@ -413,7 +413,7 @@ footer.footer {
     .container {
         .footer-inner {
             padding-top: 75px;
-            padding-bottom: 30px;
+            padding-bottom: 50px;
             .footer__sides {
                 display: flex;
                 justify-content: space-between;
@@ -423,6 +423,22 @@ footer.footer {
                         margin-bottom: 65px;
                         h2 {
                             font-size: 22px;
+                        }
+                    }
+                    .footer__links-after-adaptive {
+                        display: none;
+                        a.footer__link {
+                            margin-right: 25px;
+                            color: var(--white-color);
+                            font-size: 22px;
+                        }
+                        .a.footer__link:last-child {
+                            margin-right: 0;
+                        }
+                        a.footer__link:hover {
+                            cursor: pointer;
+                            transition: all 0.3s ease;
+                            color: var(--purpur-color);
                         }
                     }
                     .footer__site-rights {

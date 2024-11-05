@@ -396,7 +396,7 @@ footer.footer {
 }
 footer.footer .container .footer-inner {
   padding-top: 75px;
-  padding-bottom: 30px;
+  padding-bottom: 50px;
 }
 footer.footer .container .footer-inner .footer__sides {
   display: flex;
@@ -408,6 +408,22 @@ footer.footer .container .footer-inner .footer__sides .footer__left-side .footer
 }
 footer.footer .container .footer-inner .footer__sides .footer__left-side .footer__title h2 {
   font-size: 22px;
+}
+footer.footer .container .footer-inner .footer__sides .footer__left-side .footer__links-after-adaptive {
+  display: none;
+}
+footer.footer .container .footer-inner .footer__sides .footer__left-side .footer__links-after-adaptive a.footer__link {
+  margin-right: 25px;
+  color: var(--white-color);
+  font-size: 22px;
+}
+footer.footer .container .footer-inner .footer__sides .footer__left-side .footer__links-after-adaptive .a.footer__link:last-child {
+  margin-right: 0;
+}
+footer.footer .container .footer-inner .footer__sides .footer__left-side .footer__links-after-adaptive a.footer__link:hover {
+  cursor: pointer;
+  transition: all 0.3s ease;
+  color: var(--purpur-color);
 }
 footer.footer .container .footer-inner .footer__sides .footer__left-side .footer__site-rights p {
   font-size: 20px;
