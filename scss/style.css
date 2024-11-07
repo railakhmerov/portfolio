@@ -12,6 +12,7 @@
 
 html {
   scroll-behavior: smooth;
+  font-family: "Neutra Text ";
 }
 
 body {
@@ -155,12 +156,22 @@ header.header .container .header-inner .header__content .header__content-title h
   flex-direction: column;
   gap: 10px;
 }
+.burger .burger__content .burger__contacts .burger__contact-content .burger__contact {
+  display: block;
+  font-size: 20px;
+  color: var(--white-color);
+}
 .burger .burger__content .burger__contacts .burger__contact-content .burger__contact-telegram {
   display: block;
   font-size: 20px;
   color: var(--white-color);
 }
 .burger .burger__content .burger__contacts .burger__contact-content .burger__contact-mail {
+  display: block;
+  font-size: 20px;
+  color: var(--white-color);
+}
+.burger .burger__content .burger__contacts .burger__contact-content .burger__contact-vk {
   display: block;
   font-size: 20px;
   color: var(--white-color);
