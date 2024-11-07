@@ -161,22 +161,6 @@ header.header .container .header-inner .header__content .header__content-title h
   font-size: 20px;
   color: var(--white-color);
 }
-.burger .burger__content .burger__contacts .burger__contact-content .burger__contact-telegram {
-  display: block;
-  font-size: 20px;
-  color: var(--white-color);
-}
-.burger .burger__content .burger__contacts .burger__contact-content .burger__contact-mail {
-  display: block;
-  font-size: 20px;
-  color: var(--white-color);
-}
-.burger .burger__content .burger__contacts .burger__contact-content .burger__contact-vk {
-  display: block;
-  font-size: 20px;
-  color: var(--white-color);
-}
-
 main.main {
   margin-bottom: 120px;
 }
