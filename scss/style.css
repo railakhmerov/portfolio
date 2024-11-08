@@ -25,6 +25,11 @@ body {
   margin: 0 auto;
 }
 
+button {
+  font-family: inherit;
+  cursor: pointer;
+}
+
 header.header {
   margin-bottom: 150px;
   height: 100vh;
