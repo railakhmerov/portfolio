@@ -1832,6 +1832,10 @@
                             font-size: 40px;
                             color: var(--purpur-color);
                         }
+                        svg {
+                            width: 80px;
+                            height: 100px;
+                        }
                     }
                     .header__links {
                         display: none;

@@ -50,11 +50,21 @@ header.header {
                 align-items: center;
                 .header__logo {
                     padding: 5px 10px;
-                    background-color: var(--black-color);
                     border-radius: 50px;
                     a {
                         font-size: 42px;
                         color: var(--purpur-color);
+                        svg {
+                            transition: all linear 0.4s;
+                            -webkit-transform: 0;
+                            -webkit-transition: 0.4s all ease; /* Safari and Chrome */
+                            -moz-transition: 0.4s all ease; /* Firefox 4 */
+                            -o-transition: 0.4s all ease; /* Opera */
+                        }
+                        svg:hover {
+                            transform: rotate(-15deg) scale(1.1);
+                            transition: 0.4s all ease;
+                        }
                     }
                 }
                 .header__links {

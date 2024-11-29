@@ -54,12 +54,22 @@ header.header .container .header-inner .header__navigation {
 }
 header.header .container .header-inner .header__navigation .header__logo {
   padding: 5px 10px;
-  background-color: var(--black-color);
   border-radius: 50px;
 }
 header.header .container .header-inner .header__navigation .header__logo a {
   font-size: 42px;
   color: var(--purpur-color);
+}
+header.header .container .header-inner .header__navigation .header__logo a svg {
+  transition: all linear 0.4s;
+  -webkit-transform: 0;
+  -webkit-transition: 0.4s all ease; /* Safari and Chrome */
+  -moz-transition: 0.4s all ease; /* Firefox 4 */
+  -o-transition: 0.4s all ease; /* Opera */
+}
+header.header .container .header-inner .header__navigation .header__logo a svg:hover {
+  transform: rotate(-15deg) scale(1.1);
+  transition: 0.4s all ease;
 }
 header.header .container .header-inner .header__navigation .header__links {
   display: flex;
