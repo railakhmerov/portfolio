@@ -352,6 +352,7 @@ main.main section.contacts .container .contacts-inner .contact__sides .contact__
   gap: 25px;
 }
 main.main section.contacts .container .contacts-inner .contact__sides .contact__left .contact__left-inputs #contact-name {
+  border: none;
   padding: 20px 35px;
   border-radius: 1000px;
   font-size: 22px;
@@ -371,6 +372,7 @@ main.main section.contacts .container .contacts-inner .contact__sides .contact__
   color: var(--white-color);
 }
 main.main section.contacts .container .contacts-inner .contact__sides .contact__left .contact__left-inputs #contact-mail {
+  border: none;
   padding: 20px 35px;
   border-radius: 1000px;
   font-size: 22px;
