@@ -146,15 +146,15 @@ header.header {
         height: 100%;
         background-color: var(--black-color);
         .burger__logo-wrapper {
-            margin-top: 100px;
-            margin-bottom: 40px;
+            margin-top: 50px;
+            margin-bottom: 50px;
             a {
                 font-size: 45px;
                 color: var(--purpur-color);
             }
         }
         nav.burger__nav_links {
-            margin-bottom: 100px;
+            margin-bottom: 50px;
             display: flex;
             flex-direction: column;
             gap: 20px;

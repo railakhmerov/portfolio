@@ -150,15 +150,15 @@ header.header .container .header-inner .header__content .header__content-title h
   background-color: var(--black-color);
 }
 .burger .burger__content .burger__logo-wrapper {
-  margin-top: 100px;
-  margin-bottom: 40px;
+  margin-top: 50px;
+  margin-bottom: 50px;
 }
 .burger .burger__content .burger__logo-wrapper a {
   font-size: 45px;
   color: var(--purpur-color);
 }
 .burger .burger__content nav.burger__nav_links {
-  margin-bottom: 100px;
+  margin-bottom: 50px;
   display: flex;
   flex-direction: column;
   gap: 20px;
