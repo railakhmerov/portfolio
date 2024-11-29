@@ -12,12 +12,10 @@
 
 html {
   scroll-behavior: smooth;
-  font-family: "Neutra Text ";
 }
 
 body {
-  font-family: "Neutra Text ";
-  scroll-behavior: smooth;
+  font-family: "Neutra Text";
 }
 
 .container {
@@ -62,6 +60,7 @@ header.header .container .header-inner .header__navigation .header__logo a {
 }
 header.header .container .header-inner .header__navigation .header__logo a svg {
   transition: all linear 0.4s;
+  transform: 0;
   -webkit-transform: 0;
   -webkit-transition: 0.4s all ease; /* Safari and Chrome */
   -moz-transition: 0.4s all ease; /* Firefox 4 */
@@ -76,7 +75,7 @@ header.header .container .header-inner .header__navigation .header__links {
   gap: 50px;
 }
 header.header .container .header-inner .header__navigation .header__link {
-  font-size: 20px;
+  font-size: 22px;
   color: var(--white-color);
 }
 header.header .container .header-inner .header__navigation .header__link:hover {
