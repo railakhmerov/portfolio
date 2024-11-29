@@ -15,7 +15,7 @@ html {
 }
 
 body {
-  font-family: "Neutra Text";
+  font-family: "Neutra Text", sans-serif;
 }
 
 .container {
@@ -51,6 +51,8 @@ header.header .container .header-inner .header__navigation {
   align-items: center;
 }
 header.header .container .header-inner .header__navigation .header__logo {
+  position: relative;
+  right: 0;
   padding: 5px 10px;
   border-radius: 50px;
 }
@@ -62,13 +64,17 @@ header.header .container .header-inner .header__navigation .header__logo a svg {
   transition: all linear 0.4s;
   transform: 0;
   -webkit-transform: 0;
-  -webkit-transition: 0.4s all ease; /* Safari and Chrome */
-  -moz-transition: 0.4s all ease; /* Firefox 4 */
-  -o-transition: 0.4s all ease; /* Opera */
+  -webkit-transition: 0; /* Safari and Chrome */
+  -moz-transition: 0; /* Firefox 4 */
+  -o-transition: 0; /* Opera */
 }
 header.header .container .header-inner .header__navigation .header__logo a svg:hover {
   transform: rotate(-15deg) scale(1.1);
+  -webkit-transform: rotate(-15deg) scale(1.1);
   transition: 0.4s all ease;
+  -webkit-transition: 0.4s all ease; /* Safari and Chrome */
+  -moz-transition: 0.4s all ease; /* Firefox 4 */
+  -o-transition: 0.4s all ease; /* Opera */
 }
 header.header .container .header-inner .header__navigation .header__links {
   display: flex;
@@ -76,11 +82,19 @@ header.header .container .header-inner .header__navigation .header__links {
 }
 header.header .container .header-inner .header__navigation .header__link {
   font-size: 22px;
+  font-weight: 600;
   color: var(--white-color);
+  transition: 0;
+  -webkit-transition: 0; /* Safari and Chrome */
+  -moz-transition: 0; /* Firefox 4 */
+  -o-transition: 0; /* Opera */
 }
 header.header .container .header-inner .header__navigation .header__link:hover {
   cursor: pointer;
   transition: all 0.3s ease;
+  -webkit-transition: all 0.3s ease; /* Safari and Chrome */
+  -moz-transition: all 0.3s ease; /* Firefox 4 */
+  -o-transition: all 0.3s ease; /* Opera */
   color: var(--purpur-color);
 }
 header.header .container .header-inner .header__navigation .header__burger-btn {
@@ -151,6 +165,7 @@ header.header .container .header-inner .header__content .header__content-title h
 }
 .burger .burger__content nav.burger__nav_links .burger__nav_link {
   font-size: 24px;
+  font-weight: 600;
   color: var(--white-color);
 }
 .burger .burger__content .burger__contacts {
