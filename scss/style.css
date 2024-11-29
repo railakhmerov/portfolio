@@ -148,10 +148,9 @@ header.header .container .header-inner .header__content .header__content-title h
   display: flex;
   flex-direction: column;
   gap: 20px;
-  text-transform: uppercase;
 }
 .burger .burger__content nav.burger__nav_links .burger__nav_link {
-  font-size: 20px;
+  font-size: 24px;
   color: var(--white-color);
 }
 .burger .burger__content .burger__contacts {
