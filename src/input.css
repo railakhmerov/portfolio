@@ -1,0 +1,299 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Дефолтные значения для всего сайта */
+
+.burger_open {
+    opacity: 1;
+    visibility: visible;
+}
+.body_fixed {
+    overflow: hidden;
+}
+
+/*container*/
+.container-sm-tlw {
+    @apply my-0 px-4;
+}
+.container-md-tlw {
+    @apply px-8;
+}
+.container-md-2-tlw {
+    @apply max-w-[800px] my-0 mx-auto min-w-0;
+}
+.container-lg-1-tlw {
+    @apply max-w-[1000px] my-0 mx-auto min-w-0;
+}
+.container-xl-tlw {
+    @apply max-w-[1200px] my-0 mx-auto min-w-0;
+}
+.container-2xl-tlw {
+    @apply max-w-[1400px] my-0 mx-auto min-w-0;
+}
+
+
+@layer components {
+    /* header */
+    .header-bg-image-tlw {
+        background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.514)), url("https://images.unsplash.com/photo-1510519138101-570d1dca3d66?q=80&w=2047&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D");
+        background-position-x: 100%;
+        background-color:rgba(0, 0, 0, .5);
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
+    .header__navigation-tlw {
+        @apply py-8 relative min-w-full flex justify-between items-center;
+    }
+    .header-link-animations-tlw {
+        @apply hover:cursor-pointer ease-in-out hover:transition-all
+        hover:duration-[0.3s] hover:text-my-purpur-color;
+    }
+    .header__burger-btn-sm-tlw {
+        @apply absolute right-0 z-[99] block ease-in-out transition-all delay-[0.3s];
+    }
+
+    .header__content-title-sm-tlw {
+        @apply max-w-[350px] top-[70%];
+    }
+    .header__content-title-dm-2-tlw {
+        @apply max-w-[450px] top-[65%];
+    }
+    .header__content-title-md-2-tlw {
+        @apply min-w-[75%] top-[65%];
+    }
+}
+
+@layer components {
+    /* burger */
+    .burger-tlw {
+        @apply flex justify-end fixed top-0 right-0 z-10 w-full 
+        h-full bg-my-bg-burger-black-color opacity-0 invisible 
+        ease-in-out transition-all delay-[0.3s] duration-[0.3s];
+    }
+    .burger-sm-tlw {
+        @apply py-0 px-7 relative flex flex-col w-[80%] h-full;
+    }
+    .burger-dm-2-tlw {
+        @apply py-0 px-7 relative flex flex-col w-[70%] h-full;
+    }
+    .burger-dm-3-tlw {
+        @apply py-0 px-7 relative flex flex-col w-[55%] h-full;
+    }
+}
+
+
+
+@layer components {
+    /* main */
+
+}
+@layer components {
+    /* footer */
+
+}
+@layer components {
+    /* Значения для sm (320px) */
+    .container-sm {
+        @apply w-full my-0 px-4;
+    }
+    .project__title-h2-sm-tlw {
+        @apply text-4xl font-semibold;
+    }
+    .project__card-text-tlw-sm-h4 {
+        @apply py-2 px-5 absolute top-10 left-6 rounded-full text-lg;
+    }
+    .project__card-text-tlw-sm-h2 {
+        @apply absolute bottom-[85px] left-6 text-2xl;
+    }
+    .project__card-text-tlw-sm-h3 {
+        @apply absolute bottom-12 left-6 text-xl;
+    }
+    .all-projects__btn-sm-tlw {
+        @apply w-full py-10 px-8 text-lg bg-my-lime-color;
+    }
+
+    .competition__title-h2-sm-tlw {
+        @apply text-4xl font-semibold;
+    }
+    .skills_for_work-sm-tlw {
+        @apply pt-[100px] pb-[100px];
+    }
+    .skills_for_work__title-h2-sm-tlw {
+        @apply text-4xl font-semibold;
+    }
+    .content__text-sm-tlw {
+        @apply p-6;
+    }
+
+    .contact__left-title-h2-sm-tlw {
+        @apply text-4xl font-semibold;
+    }
+
+    .contact__left-input-sm-tlw {
+        @apply border-[none] py-3 px-8 rounded-full text-xl placeholder:text-my-white-color active:outline-none focus:outline-none transition-all duration-[0.3s] ease-in-out;
+    }
+
+    .footer-sm-tlw {
+        @apply pt-14 pb-10;
+    }
+    .footer__links-after-adaptive-sm-tlw {
+        @apply flex flex-col gap-2 mb-8;
+    }
+    .footer__links-sm-tlw {
+        @apply hidden;
+    }
+}
+
+@layer components {
+    /* Значения для dm (375px) */
+    .project__title-tlw-sm {
+        @apply mb-16;
+    }
+    .project__title-tlw-dm {
+        @apply mb-20;
+    }
+    
+    .project__card-text-tlw-dm-h4 {
+        @apply text-2xl dm-2:left-10 py-3;
+    }
+    .project__card-text-tlw-dm-h2 {
+        @apply bottom-20 text-3xl;
+    }
+    .project__card-text-tlw-dm-h3 {
+        @apply text-2xl;
+    }
+    .all-projects__btn-md-tlw {
+        @apply text-2xl;
+    }
+}
+
+@layer components {
+    /* Значения для dm-1 (420px) */
+    .project__card-text-tlw-dm-h4 {
+        @apply left-10;
+    }
+    .project__card-text-tlw-dm-h2 {
+        @apply bottom-24 left-10;
+    }
+    .project__card-text-tlw-dm-h3 {
+        @apply bottom-16 left-10;
+    }
+    .all-projects__btn-dm-1-tlw {
+        @apply text-3xl;
+    }
+}
+
+@layer components {
+    /* Значения для dm-2 (500px) */
+    .project__title-h2-dm-2-tlw {
+        @apply mb-[80px] text-5xl;
+    }
+    .project__card-text-tlw-dm-2-h2 {
+        @apply bottom-32 left-10 text-4xl ;
+    }
+    .project__card-text-tlw-dm-2-h3 {
+        @apply bottom-20 left-10 text-3xl;
+    }
+
+    .competition__title-h2-dm-2-tlw {
+        @apply mb-[80px] text-5xl;
+    }
+
+    .skills_for_work-dm-2-tlw {
+        @apply pt-[150px] pb-[150px];
+    }
+    .skills_for_work__title-h2-dm-2-tlw {
+        @apply mb-[80px] text-5xl;
+    }
+
+    .contact__left-title-h2-dm-2-tlw {
+        @apply mb-[80px] text-5xl;
+    }
+
+    .contact__left-input-dm-2-tlw {
+        @apply py-4;
+    }
+
+    .footer-dm-2-tlw {
+        @apply pt-16 pb-10;
+    }
+    .footer__links-after-adaptive-dm-2-tlw {
+        @apply gap-3 mb-12;
+    }
+}
+
+@layer components {
+    /* Значения для dm-3 (640px) */
+    .project__title-h2-dm-3-tlw {
+        @apply mb-[100px] text-6xl;
+    }
+    .project__card-text-tlw-dm-3-h4 {
+        @apply left-14 py-4 px-8;
+    }
+    .project__card-text-tlw-dm-3-h2 {
+        @apply left-14;
+    }
+    .project__card-text-tlw-dm-3-h3 {
+        @apply left-14;
+    }
+    .all-projects__btn-dm-3-tlw {
+        @apply text-4xl py-16;
+    }
+
+    .competition__title-h2-dm-3-tlw {
+        @apply mb-[100px] text-6xl;
+    }
+
+
+    .skills_for_work__title-h2-dm-3-tlw {
+        @apply mb-[100px] text-6xl;
+    }
+
+    .contact__left-title-h2-dm-3-tlw {
+        @apply mb-[100px] text-6xl;
+    }
+
+    .contact__left-input-md-tlw {
+        @apply py-5;
+    }
+}
+
+@layer components {
+    /* Значения для md (768px) */
+    .project__card-text-tlw-md-h4 {
+        @apply left-16 py-3;
+    }
+    .project__card-text-tlw-md-h2 {
+        @apply left-16 bottom-20;
+    }
+    .project__card-text-tlw-md-h3 {
+        @apply left-16 bottom-9;
+    }
+}
+
+@layer components {
+    /* Значения для md (768px) */
+    .all-projects__btn-md-tlw {
+        @apply text-2xl;
+    }
+}
+
+@layer components {
+    /*Значения для md-2 (900px)*/
+    .competition__info-md-2-tlw {
+        @apply w-[calc(50%_-_30px)] my-0 mx-auto;
+    }
+    .project__card-text-tlw-md-2-h2 {
+        @apply left-16 bottom-32;
+    }
+    .project__card-text-tlw-md-2-h3 {
+        @apply left-16 bottom-20;
+    }
+}
+@layer components {
+    /*Значения для md-3 (1000px)*/
+    .content__text-md-3-tlw {
+        @apply flex items-center justify-between p-10;
+    }
+}

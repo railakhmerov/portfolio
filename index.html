@@ -1,314 +1,387 @@
 <!DOCTYPE html>
-<html lang="ru">
+<html lang="ru" class="html-primary">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="icon" href="img/favicon-32x32.png" type="icon/png">
     <Title>RailAkhmerov | Frontend developer</Title>
     <meta name="description" content="Персональный сайт Ахмерова Раиля, Frontend-разработчик.">
-    <link href="https://fonts.cdnfonts.com/css/neutra-text-alt" rel="stylesheet"> 
+    <!-- <link href="https://fonts.cdnfonts.com/css/neutra-text-alt" rel="stylesheet">  -->
     <link rel="stylesheet" href="css/reset.css">
-    <link rel="stylesheet" href="scss/style.css">
-    <link rel="stylesheet" href="scss/media.css">
+    <link rel="stylesheet" href="./src/output.css">
+    <!-- <link rel="stylesheet" href="scss/media.css"> -->
     <title>Portfolio</title>
 </head>
 <body>
-    <header class="header">
-        <div class="container">
-            <div class="header-inner">
-                <nav class="header__navigation">
-                    <div class="header__logo">
-                        <a href="index.html">
-                            <svg width="120" height="120" viewBox="0 0 125 153" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                <rect y="18.8303" width="125" height="123.015" rx="10" fill="#C6C6FF"/>
-                                <path d="M92.264 126L88.424 111.6H70.088L66.344 126H52.424L71.336 65.52H87.752L106.664 126H92.264ZM72.68 101.04H85.928L84.296 95.376C83.464 92.368 82.632 89.168 81.8 85.776C81.032 82.32 80.232 79.024 79.4 75.888H79.016C78.312 79.088 77.544 82.384 76.712 85.776C75.944 89.168 75.144 92.368 74.312 95.376L72.68 101.04Z" fill="white"/>
-                                <path d="M13.104 126V65.52H34.896C39.184 65.52 43.088 66.096 46.608 67.248C50.128 68.4 52.944 70.352 55.056 73.104C57.168 75.856 58.224 79.632 58.224 84.432C58.224 89.04 57.168 92.816 55.056 95.76C52.944 98.704 50.128 100.88 46.608 102.288C43.088 103.632 39.184 104.304 34.896 104.304H26.736V126H13.104ZM26.736 93.456H33.744C41.104 93.456 44.784 90.448 44.784 84.432C44.784 81.424 43.824 79.344 41.904 78.192C40.048 77.04 37.328 76.464 33.744 76.464H26.736V93.456ZM45.84 126L32.4 100.656L41.808 91.92L61.104 126H45.84Z" fill="white"/>
-                            </svg>
-                        </a>
+     <header class="header h-screen w-full header-bg-image-tlw sm:mb-[100px] dm-2:mb-[150px]">
+          <div class="container h-full min-w-full container-sm-tlw container-md-tlw container-md-2-tlw container-lg-1-tlw container-xl-tlw container-2xl-tlw">
+               <div class="header-inner h-full w-full relative">
+                    <nav class="header__navigation header__navigation-tlw">
+                         <div class="header__logo">
+                              <a href="index.html" class="">
+                                   <svg class="header-icon" width="120" height="120" viewBox="0 0 125 153" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                        <rect y="18.8303" width="125" height="123.015" rx="10" fill="#C6C6FF"/>
+                                        <path d="M92.264 126L88.424 111.6H70.088L66.344 126H52.424L71.336 65.52H87.752L106.664 126H92.264ZM72.68 101.04H85.928L84.296 95.376C83.464 92.368 82.632 89.168 81.8 85.776C81.032 82.32 80.232 79.024 79.4 75.888H79.016C78.312 79.088 77.544 82.384 76.712 85.776C75.944 89.168 75.144 92.368 74.312 95.376L72.68 101.04Z" fill="white"/>
+                                        <path d="M13.104 126V65.52H34.896C39.184 65.52 43.088 66.096 46.608 67.248C50.128 68.4 52.944 70.352 55.056 73.104C57.168 75.856 58.224 79.632 58.224 84.432C58.224 89.04 57.168 92.816 55.056 95.76C52.944 98.704 50.128 100.88 46.608 102.288C43.088 103.632 39.184 104.304 34.896 104.304H26.736V126H13.104ZM26.736 93.456H33.744C41.104 93.456 44.784 90.448 44.784 84.432C44.784 81.424 43.824 79.344 41.904 78.192C40.048 77.04 37.328 76.464 33.744 76.464H26.736V93.456ZM45.84 126L32.4 100.656L41.808 91.92L61.104 126H45.84Z" fill="white"/>
+                                   </svg>
+                              </a>
+                         </div>
+                         <div class="header__links sm:hidden text-xl md:flex gap-6">
+                              <a href="#projects" class="header__link text-my-white-color header-link-animations-tlw md-2:text-2xl">Проекты</a>
+                              <a href="#competitions" class="header__link text-my-white-color header-link-animations-tlw md-2:text-2xl">Компетенции</a>
+                              <a href="#services" class="header__link text-my-white-color header-link-animations-tlw md-2:text-2xl">Услуги</a>
+                              <a href="#contacts" class="header__link text-my-white-color header-link-animations-tlw md-2:text-2xl">Связаться</a>
+                         </div>
+                         <div class="header__burger-btn js-burger-btn sm:header__burger-btn-sm-tlw md:hidden">
+                              <img src="img/burger-img.svg" alt="burger-btn" class="w-9">
+                         </div>
+                    </nav>
+                    <div class="header__content">
+                         <div class="header__content-description max-w-[400px] text-my-white-color sm:w-3/4 absolute top-[35%] left-0 dm:top-[42%] dm-1:top-[45%] dm-2:top-[45%]">
+                              <p class="text-my-white-color font-medium sm:text-lg dm-2:text-xl">
+                                   Разрабатываю имиджевые сайты для малого и среднего бизнеса, которые повышают престиж компании и позволяют выделиться на фоне конкурентов
+                              </p>
+                         </div>
+                         <div class="header__content-title absolute left-0 sm:header__content-title-sm-tlw  dm-2:header__content-title-dm-2-tlw md-2:header__content-title-md-2-tlw">
+                              <h2 class="text-my-purpur-color font-semibold sm:text-4xl dm-2:text-5xl md-2:text-6xl">Привет, я Раиль — фронтенд разработчик</h2>
+                         </div>
                     </div>
-                    <div class="header__links">
-                        <a href="#projects" class="header__link">Проекты</a>
-                        <a href="#competitions" class="header__link">Компетенции</a>
-                        <a href="#services" class="header__link">Услуги</a>
-                        <a href="#contacts" class="header__link">Связаться</a>
+               </div>
+          </div>
+     </header>
+     <div class="burger js-burger burger-tlw md:hidden">
+          <div class="burger__content js-burger__content bg-my-black-color sm:burger-sm-tlw dm-2:burger-dm-2-tlw dm-3:burger-dm-3-tlw">
+               <div class="burger__logo-wrapper my-12">
+                    <a href="index.html" class="text-5xl text-my-purpur-color">
+                         <svg width="80" height="100" viewBox="0 0 125 153" fill="none" xmlns="http://www.w3.org/2000/svg">
+                         <rect y="18.8303" width="125" height="123.015" rx="10" fill="#C6C6FF"/>
+                         <path d="M92.264 126L88.424 111.6H70.088L66.344 126H52.424L71.336 65.52H87.752L106.664 126H92.264ZM72.68 101.04H85.928L84.296 95.376C83.464 92.368 82.632 89.168 81.8 85.776C81.032 82.32 80.232 79.024 79.4 75.888H79.016C78.312 79.088 77.544 82.384 76.712 85.776C75.944 89.168 75.144 92.368 74.312 95.376L72.68 101.04Z" fill="white"/>
+                         <path d="M13.104 126V65.52H34.896C39.184 65.52 43.088 66.096 46.608 67.248C50.128 68.4 52.944 70.352 55.056 73.104C57.168 75.856 58.224 79.632 58.224 84.432C58.224 89.04 57.168 92.816 55.056 95.76C52.944 98.704 50.128 100.88 46.608 102.288C43.088 103.632 39.184 104.304 34.896 104.304H26.736V126H13.104ZM26.736 93.456H33.744C41.104 93.456 44.784 90.448 44.784 84.432C44.784 81.424 43.824 79.344 41.904 78.192C40.048 77.04 37.328 76.464 33.744 76.464H26.736V93.456ZM45.84 126L32.4 100.656L41.808 91.92L61.104 126H45.84Z" fill="white"/>
+                         </svg>
+                    </a>
+               </div>
+               <nav class="burger__nav_links mb-20 flex flex-col gap-5">
+                    <a class="burger__nav_link text-xl font-semibold text-my-white-color dm-2:text-2xl" href="#projects">Проекты</a>
+                    <a class="burger__nav_link text-xl font-semibold text-my-white-color dm-2:text-2xl" href="#competitions">Компетенции</a>
+                    <a class="burger__nav_link text-xl font-semibold text-my-white-color dm-2:text-2xl" href="#services">Услуги</a>
+                    <a class="burger__nav_link text-xl font-semibold text-my-white-color dm-2:text-2xl" href="#contacts">Связаться</a>
+               </nav>
+               <div class="burger__contacts flex flex-col">
+                    <div class="burger__contact-title mb-8">
+                         <h3 class="text-2xl text-my-grey-color">Для связи:</h3>
                     </div>
-                    <div class="header__burger-btn js-burger-btn">
-                        <img src="img/burger-img.svg" alt="burger-btn">
-                     </div>
-                </nav>
-                <div class="header__content">
-                    <div class="header__content-description">
-                        <p>
-                            Разрабатываю имиджевые сайты для малого и среднего бизнеса, которые повышают престиж компании и позволяют выделиться на фоне конкурентов
-                        </p>
+                    <div class="burger__contact-content flex flex-col gap-3">
+                         <a class="burger__contact block text-base font-semibold text-my-white-color dm-1:text-xl burger__contact-telegram" href="https://t.me/Akhmer0v" target="_blank" rel="noopener">Telegram</a>
+                         <a class="burger__contact block text-base font-semibold text-my-white-color dm-1:text-xl burger__contact-mail" href="mailto:Railwork0015@gmail.com">Railwork0015@gmail.com</a>
+                         <a class="burger__contact block text-base font-semibold text-my-white-color dm-1:text-xl burger__contact-vk" href="https://vk.com/tatarin.kick" target="_blank" rel="noopener">vk</a>
                     </div>
-                    <div class="header__content-title">
-                        <h2>Привет, я Раиль — фронтенд разработчик</h2>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </header>
-    <div class="burger js-burger">
-        <div class="burger__content js-burger__content">
-            <div class="burger__logo-wrapper">
-                <a href="index.html">
-                    <svg width="80" height="100" viewBox="0 0 125 153" fill="none" xmlns="http://www.w3.org/2000/svg">
-                        <rect y="18.8303" width="125" height="123.015" rx="10" fill="#C6C6FF"/>
-                        <path d="M92.264 126L88.424 111.6H70.088L66.344 126H52.424L71.336 65.52H87.752L106.664 126H92.264ZM72.68 101.04H85.928L84.296 95.376C83.464 92.368 82.632 89.168 81.8 85.776C81.032 82.32 80.232 79.024 79.4 75.888H79.016C78.312 79.088 77.544 82.384 76.712 85.776C75.944 89.168 75.144 92.368 74.312 95.376L72.68 101.04Z" fill="white"/>
-                        <path d="M13.104 126V65.52H34.896C39.184 65.52 43.088 66.096 46.608 67.248C50.128 68.4 52.944 70.352 55.056 73.104C57.168 75.856 58.224 79.632 58.224 84.432C58.224 89.04 57.168 92.816 55.056 95.76C52.944 98.704 50.128 100.88 46.608 102.288C43.088 103.632 39.184 104.304 34.896 104.304H26.736V126H13.104ZM26.736 93.456H33.744C41.104 93.456 44.784 90.448 44.784 84.432C44.784 81.424 43.824 79.344 41.904 78.192C40.048 77.04 37.328 76.464 33.744 76.464H26.736V93.456ZM45.84 126L32.4 100.656L41.808 91.92L61.104 126H45.84Z" fill="white"/>
-                    </svg>
-                </a>
-             </div>
-           <nav class="burger__nav_links">
-              <a class="burger__nav_link" href="#projects">Проекты</a>
-              <a class="burger__nav_link" href="#competitions">Компетенции</a>
-              <a class="burger__nav_link" href="#services">Услуги</a>
-              <a class="burger__nav_link" href="#contacts">Связаться</a>
-           </nav>
-           <div class="burger__contacts">
-              <div class="burger__contact-title">
-                 <h3>Для связи:</h3>
-              </div>
-              <div class="burger__contact-content">
-                 <a class="burger__contact burger__contact-telegram" href="https://t.me/Akhmer0v" target="_blank" rel="noopener">Telegram</a>
-                 <a class="burger__contact burger__contact-mail" href="mailto:Railwork0015@gmail.com">Railwork0015@gmail.com</a>
-                 <a class="burger__contact burger__contact-vk" href="https://vk.com/tatarin.kick" target="_blank" rel="noopener">vk</a>
-                </div>
-           </div>
-        </div>
+               </div>
+          </div>
     </div>
-    <main class="main">
-        <section id="projects" class="projects">
-            <div class="container">
-                <div class="projects-inner">
-                    <div class="project__title">
-                        <h2>Самые свежие проекты</h2>
+     <main class="main sm:mb-[100px] dm-2:mb-[150px]">
+          <section id="projects" class="projects sm:mb-[100px] dm-2:mb-[150px]">
+               <div class="container min-w-full container-sm-tlw container-md-tlw container-md-2-tlw container-md-3-tlw container-lg-1-tlw container-xl-tlw container-2xl-tlw">
+                    <div class="projects-inner">
+                         <div class="project__title sm:mb-16 dm:mb-20">
+                              <h2 class="text-my-black-color sm:project__title-h2-sm-tlw dm-2:project__title-h2-dm-2-tlw dm-3:project__title-h2-dm-3-tlw">Самые свежие проекты</h2>
+                         </div>
+                         <div class="project__cards sm:mb-14">
+                              <div class="card relative sm:mb-2">
+                                   <picture class="card__image">
+                                        <source srcset="img/project_img-1.jpg" media="(min-width: 768px)">
+                                        <img src="img/media-project_img-1.jpg" alt="картинка" class="w-full">
+                                   </picture>            
+                                   <div class="card__text">
+                                        <h4 class="bg-my-lime-color 
+                                        sm:project__card-text-tlw-sm-h4 
+                                        dm:project__card-text-tlw-dm-h4 
+                                        dm-1:project__card-text-tlw-dm-h4
+                                        dm-3:project__card-text-tlw-dm-3-h4
+                                        md:project__card-text-tlw-md-h4">
+                                        Дизайн интерьера
+                                        </h4>
+                                        <h2 class=" text-my-white-color 
+                                        sm:project__card-text-tlw-sm-h2 
+                                        dm:project__card-text-tlw-dm-h2 
+                                        dm-1:project__card-text-tlw-dm-h2 
+                                        dm-2:project__card-text-tlw-dm-2-h2
+                                        dm-3:project__card-text-tlw-dm-3-h2
+                                        md:project__card-text-tlw-md-h2
+                                        md-2:project__card-text-tlw-md-2-h2">
+                                        Метрика
+                                        </h2>
+                                        <h3 class=" text-my-white-color 
+                                        sm:project__card-text-tlw-sm-h3 
+                                        dm:project__card-text-tlw-dm-h3 
+                                        dm-1:project__card-text-tlw-dm-h3 
+                                        dm-2:project__card-text-tlw-dm-2-h3
+                                        dm-3:project__card-text-tlw-dm-3-h3
+                                        md:project__card-text-tlw-md-h3
+                                        md-2:project__card-text-tlw-md-2-h3">
+                                        верстка, настройка
+                                        </h3>
+                                   </div>
+                              </div>
+                              <div class="card relative sm:mb-2">
+                                   <picture class="card__image">
+                                        <source srcset="img/project_img-2.jpg" media="(min-width: 768px)">
+                                        <img src="img/media-project_img-2.jpg" alt="картинка" class="w-full">
+                                   </picture>   
+                                   <div class="card__text">
+                                        <h4 class="bg-my-lime-color 
+                                        sm:project__card-text-tlw-sm-h4 
+                                        dm:project__card-text-tlw-dm-h4
+                                        dm-3:project__card-text-tlw-dm-3-h4
+                                        md:project__card-text-tlw-md-h4">
+                                        Презентация продукта
+                                        </h4>
+                                        <h2 class="text-my-white-color
+                                        sm:project__card-text-tlw-sm-h2
+                                        dm:project__card-text-tlw-dm-h2 
+                                        dm-1:project__card-text-tlw-dm-h2 
+                                        dm-2:project__card-text-tlw-dm-2-h2
+                                        dm-3:project__card-text-tlw-dm-3-h2
+                                        md:project__card-text-tlw-md-h2
+                                        md-2:project__card-text-tlw-md-2-h2">
+                                        Nothing
+                                        </h2>
+                                        <h3 class="text-my-white-color 
+                                        sm:project__card-text-tlw-sm-h3 
+                                        dm:project__card-text-tlw-dm-h3 
+                                        dm-1:project__card-text-tlw-dm-h3 
+                                        dm-2:project__card-text-tlw-dm-2-h3
+                                        dm-3:project__card-text-tlw-dm-3-h3
+                                        md:project__card-text-tlw-md-h3
+                                        md-2:project__card-text-tlw-md-2-h3">
+                                        разработка интерфейса
+                                        </h3>
+                                   </div>
+                              </div>
+                              <div class="card relative">
+                                   <picture class="card__image">
+                                        <source srcset="img/project_img-3.jpg" media="(min-width: 768px)">
+                                        <img src="img/media-project_img-3.jpg" alt="картинка" class="w-full">
+                                   </picture>   
+                                   <div class="card__text">
+                                        <h4 class="bg-my-lime-color 
+                                        sm:project__card-text-tlw-sm-h4
+                                        dm:project__card-text-tlw-dm-h4
+                                        dm-3:project__card-text-tlw-dm-3-h4
+                                        md:project__card-text-tlw-md-h4">
+                                        Заказ путешествий
+                                        </h4>
+                                        <h2 class="text-my-white-color 
+                                        sm:project__card-text-tlw-sm-h2 
+                                        dm:project__card-text-tlw-dm-h2 
+                                        dm-1:project__card-text-tlw-dm-h2 
+                                        dm-2:project__card-text-tlw-dm-2-h2
+                                        dm-3:project__card-text-tlw-dm-3-h2
+                                        md:project__card-text-tlw-md-h2
+                                        md-2:project__card-text-tlw-md-2-h2">
+                                        TOPTRIP
+                                        </h2>
+                                        <h3 class="text-my-white-color 
+                                        sm:project__card-text-tlw-sm-h3 
+                                        dm:project__card-text-tlw-dm-h3 
+                                        dm-1:project__card-text-tlw-dm-h3 
+                                        dm-2:project__card-text-tlw-dm-2-h3
+                                        dm-3:project__card-text-tlw-dm-3-h3
+                                        md:project__card-text-tlw-md-h3
+                                        md-2:project__card-text-tlw-md-2-h3">
+                                        разработка интерфейса
+                                        </h3>
+                                   </div>
+                              </div>
+                         </div>
+                         <div class="all-projects__btn sm:mb-16">
+                              <a href="#">
+                                   <button class="cursor-pointer rounded-2xl sm:all-projects__btn-sm-tlw dm:all-projects__btn-dm-tlw dm-1:all-projects__btn-dm-1-tlw dm-3:all-projects__btn-dm-3-tlw">Смотреть все проекты</button>
+                              </a>
+                         </div>
                     </div>
-                    <div class="project__cards">
-                        <div class="card">
-                            <picture class="card__image">
-                                <source srcset="img/media-project_img-1.jpg" media="(max-width: 600px)">
-                                <img src="img/project_img-1.jpg" alt="картинка">
-                            </picture>            
-                            <div class="card__text">
-                                <h4>Дизайн интерьера</h4>
-                                <h2>Метрика</h2>
-                                <h3>верстка, настройка</h3>
-                            </div>
-                        </div>
-                        <div class="card">
-                            <picture class="card__image">
-                                <source srcset="img/media-project_img-2.jpg" media="(max-width: 600px)">
-                                <img src="img/project_img-2.jpg" alt="картинка">
-                            </picture>   
-                            <div class="card__text">
-                                <h4>Презентация продукта</h4>
-                                <h2>Nothing</h2>
-                                <h3>разработка интерфейса</h3>
-                            </div>
-                        </div>
-                        <div class="card">
-                            <picture class="card__image">
-                                <source srcset="img/media-project_img-3.jpg" media="(max-width: 600px)">
-                                <img src="img/project_img-3.jpg" alt="картинка">
-                            </picture>   
-                            <div class="card__text">
-                                <h4>Заказ путешествий</h4>
-                                <h2>TOPTRIP</h2>
-                                <h3>разработка интерфейса</h3>
-                            </div>
-                        </div>
+               </div>
+          </section>
+          <section id="competitions" class="competitions bg-my-black-color sm:py-[100px] dm-2:py-[150px]">
+               <div class="container min-w-full container-sm-tlw container-md-tlw container-md-2-tlw container-md-3-tlw container-lg-1-tlw container-xl-tlw container-2xl-tlw">
+                    <div class="competitions-inner">
+                         <div class="competition__title sm:mb-16 dm:mb-20">
+                              <h2 class="text-my-white-color sm:competition__title-h2-sm-tlw dm-2:competition__title-h2-dm-2-tlw dm-3:competition__title-h2-dm-3-tlw">Мои компетенции</h2>
+                         </div>
+                         <div class="competition__content text-my-white-color md-2:flex flex-wrap">
+                              <div class="competition__info sm:mb-16 dm-3:mb-16 md-2:competition__info-md-2-tlw">
+                                   <img src="img/competition-svg-1.svg" alt="logo" class="mb-3">
+                                   <h3 class="text-my-lime-color sm:mb-4 text-2xl dm-2:text-4xl dm-3:mb-7">HTML и CSS</h3>
+                                   <h4 class="sm:text-lg dm-2:text-xl dm-3:text-2xl">
+                                        Это основа фронтенд разработки. Умение 
+                                        создавать и правильно структурировать 
+                                        HTML-документы, а также применять стили к 
+                                        этим документам на CSS, является 
+                                        обязательным навыком для каждого фронтенд разработчика.
+                                   </h4>
+                              </div>
+                              <div class="competition__info sm:mb-16 dm-3:mb-16 md-2:competition__info-md-2-tlw">
+                                   <img src="img/competition-svg-2.svg" alt="logo" class="mb-3">
+                                   <h3 class="text-my-lime-color sm:mb-4 text-2xl dm-2:text-4xl dm-3:mb-7">JavaScript</h3>
+                                   <h4 class="sm:text-lg dm-2:text-xl dm-3:text-2xl">
+                                        Это язык программирования, который используется 
+                                        для создания динамического и интерактивного 
+                                        пользовательского интерфейса. Хороший фронтенд 
+                                        разработчик должен быть знаком с основами JavaScript,
+                                        включая работу с DOM-деревом, асинхронными запросами 
+                                        и манипуляцией данными на стороне клиента.
+                                   </h4>
+                              </div>
+                              <div class="competition__info sm:mb-16 dm-3:mb-16 md-2:competition__info-md-2-tlw">
+                                   <img src="img/competition-svg-3.svg" alt="logo" class="mb-3">
+                                   <h3 class="text-my-lime-color sm:mb-4 text-2xl dm-2:text-4xl dm-3:mb-7">Работа с библиотеками и фреймворками</h3>
+                                   <h4 class="sm:text-lg dm-2:text-xl dm-3:text-2xl">
+                                        Фронтенд разработчики должны быть знакомы с различными 
+                                        библиотеками и фреймворками, такими как React, Angular, 
+                                        Vue и другими. Умение использовать готовые решения, 
+                                        адаптировать их под нужды проекта и расширять их 
+                                        функциональность, является очень важным навыком.
+                                   </h4>
+                              </div>
+                              <div class="competition__info sm:mb-16 dm-3:mb-16 md-2:competition__info-md-2-tlw">
+                                   <img src="img/competition-svg-4.svg" alt="logo" class="mb-3">
+                                   <h3 class="text-my-lime-color sm:mb-4 text-2xl dm-2:text-4xl dm-3:mb-7">Разработка для мобильных устройств и адаптивная верстка</h3>
+                                   <h4 class="sm:text-lg dm-2:text-xl dm-3:text-2xl">
+                                        Современный фронтенд разработчик должен уметь разрабытывать
+                                        и верстать качественные приложения и сайты не только для больших экранов,
+                                        но, так же, для планшетов и мобильных устройств.
+                                   </h4>
+                              </div>
+                         </div>
                     </div>
-                    <div class="all-projects__btn">
-                        <a href="#">
-                            <button>Смотреть все проекты</button>
-                        </a>
+               </div>
+          </section>
+          <section id="services" class="skills_for_work bg-my-black-color sm:skills_for_work-sm-tlw dm-2:skills_for_work-dm-2-tlw">
+               <div class="container min-w-full container-sm-tlw container-md-tlw container-md-2-tlw container-md-3-tlw container-lg-1-tlw container-xl-tlw container-2xl-tlw">
+                    <div class="skills_for_work-inner">
+                         <div class="skills_for_work__title sm:mb-16 dm:mb-20">
+                              <h2 class="text-my-white-color sm:skills_for_work__title-h2-sm-tlw dm-2:skills_for_work__title-h2-dm-2-tlw dm-3:skills_for_work__title-h2-dm-3-tlw">Помогаю реализовать <br> широкий спектр задач</h2>
+                         </div>
+                         <div class="skills_for_work__content">
+                              <div class="item__info mb-16">
+                                   <picture class="content__img">
+                                        <source srcset="img/media-skills-img-1.jpg" media="(max-width: 600px)" class="w-full rounded-3xl">
+                                        <img src="img/skills-img-1.jpg" alt="картинка" class="w-full rounded-3xl">
+                                   </picture>
+                                   <div class="content__text rounded-3xl bg-my-dark-grey-color sm:content__text-sm-tlw md-3:content__text-md-3-tlw">
+                                        <div class="content-left sm:mb-5 dm-2:mb-8 md-3:mr-24">
+                                             <h3 class="text-my-lime-color sm:text-3xl dm-2:text-4xl md-3:text-5xl">Разработка сайта под ключ</h3>
+                                        </div>
+                                        <div class="content-right md-3:w[60%]">
+                                             <h4 class="text-my-white-color sm:text-lg dm-2:text-xl md-3:text-2xl">
+                                                  Это создание дизайн веб-сайтов, созданный для 
+                                                  удобства пользователя и решения бизнес-задач
+                                                  Сайты должны быть понятными и удобными, ведь 
+                                                  чем понятнее сайт, тем быстрее пользователь 
+                                                  совершит целевое действие
+                                             </h4>
+                                        </div>
+                                   </div>
+                              </div>
+                              <div class="item__info mb-16">
+                                   <picture class="content__img">
+                                        <source srcset="img/media-skills-img-2.jpg" media="(max-width: 600px)" class="w-full rounded-3xl">
+                                        <img src="img/skills-img-2.jpg" alt="картинка" class="w-full rounded-3xl">
+                                   </picture>  
+                                   <div class="content__text rounded-3xl bg-my-dark-grey-color sm:content__text-sm-tlw md-3:content__text-md-3-tlw">
+                                        <div class="content-left sm:mb-5 dm-2:mb-8 md-3:mr-24">
+                                             <h3 class="text-my-lime-color sm:text-3xl dm-2:text-4xl md-3:text-5xl">Верстка сайтов</h3>
+                                        </div>
+                                        <div class="content-right">
+                                             <h4 class="text-my-white-color sm:text-lg dm-2:text-xl md-3:text-2xl">
+                                                  Это создание дизайн веб-сайтов, созданный для 
+                                                  удобства пользователя и решения бизнес-задач
+                                                  Сайты должны быть понятными и удобными, ведь 
+                                                  чем понятнее сайт, тем быстрее пользователь 
+                                                  совершит целевое действие
+                                             </h4>
+                                        </div>
+                                   </div>
+                              </div>
+                              <div class="item__info">
+                                   <picture class="content__img">
+                                        <source srcset="img/media-skills-img-3.jpg" media="(max-width: 600px)" class="w-full rounded-3xl">
+                                        <img src="img/skills-img-3.jpg" alt="картинка" class="w-full rounded-3xl">
+                                   </picture>
+                                   <div class="content__text rounded-3xl bg-my-dark-grey-color sm:content__text-sm-tlw md-3:content__text-md-3-tlw">
+                                        <div class="content-left sm:mb-5 dm-2:mb-8 md-3:mr-24">
+                                             <h3 class="text-my-lime-color sm:text-3xl dm-2:text-4xl md-3:text-5xl">Разработка мобильного интерфейса</h3>
+                                        </div>
+                                        <div class="content-right">
+                                             <h4 class="text-my-white-color sm:text-lg dm-2:text-xl md-3:text-2xl">
+                                                  Это создание дизайн веб-сайтов, созданный для 
+                                                  удобства пользователя и решения бизнес-задач
+                                                  Сайты должны быть понятными и удобными, ведь 
+                                                  чем понятнее сайт, тем быстрее пользователь 
+                                                  совершит целевое действие
+                                             </h4>
+                                        </div>
+                                   </div>
+                              </div>
+                         </div>
                     </div>
-                </div>
-            </div>
-        </section>
-        <section id="competitions" class="competitions">
-            <div class="container">
-                <div class="competitions-inner">
-                    <div class="competition__title">
-                        <h2>Мои компетенции</h2>
+               </div>
+          </section>
+          <section id="contacts" class="contacts sm:mt-[100px]">
+               <div class="container min-w-full container-sm-tlw container-md-tlw container-md-2-tlw container-md-3-tlw container-lg-1-tlw container-xl-tlw container-2xl-tlw">
+                    <div class="contacts-inner">
+                         <div class="contact__sides w-full flex justify-between items-center sm:mb-3">
+                              <div class="contact__left w-full xl:w-[50%]">
+                                   <div class="contact__left-title sm:mb-16 dm:mb-20">
+                                        <h2 class="sm:contact__left-title-h2-sm-tlw dm-2:contact__left-title-h2-dm-2-tlw dm-3:contact__left-title-h2-dm-3-tlw">Для связи со <br> мной заполните простую форму</h2>
+                                   </div>
+                                   <div class="contact__left-inputs sm:mb-12 flex flex-col gap-6 md-2:flex">
+                                        <input id="contact-name" class="text-my-white-color bg-my-input-inside-grey-color sm:contact__left-input-sm-tlw dm-2:contact__left-input-dm-2-tlw dm-3:contact__left-input-dm-3-tlw md-2:w-[70%] xl:py-5 min-w-full placeholder:text-2xl" type="text" placeholder="Имя Фамилия" autocomplete="on">
+                                        <input id="contact-mail" class="text-my-white-color bg-my-input-inside-grey-color sm:contact__left-input-sm-tlw dm-2:contact__left-input-dm-2-tlw dm-3:contact__left-input-dm-3-tlw md-2:w-[70%] xl:py-5 min-w-full placeholder:text-2xl" type="email" placeholder="example@mail.com" autocomplete="on">
+                                   </div>
+                              </div>
+                              <div class="contact__right sm:hidden xl:block w-[50%] relative">
+                                   <img class="contact__img-notebook xl:absolute -top-[40px] right-[50px] z-10" src="img/contact-computer.svg" alt="notebook img">
+                                   <img class="contact__img-developer xl:absolute -top-[150px] -right-[0px]" src="img/contact-man.svg" alt="developer img">
+                              </div>
+                         </div>
+                         <div class="contact__btn rounded-lg bg-my-lime-color md-2:w-[65%] xl:w-[50%]">
+                              <button class="sm:w-full py-4 text-xl dm:text-2xl dm-1:text-3xl dm-2:py-6">Отправить</button>
+                         </div>
                     </div>
-                    <div class="competition__content">
-                        <div class="competition__info">
-                            <img src="img/competition-svg-1.svg" alt="logo">
-                            <h3>HTML и CSS</h3>
-                            <h4>
-                                Это основа фронтенд разработки. Умение 
-                                создавать и правильно структурировать 
-                                HTML-документы, а также применять стили к 
-                                этим документам на CSS, является 
-                                обязательным навыком для каждого фронтенд разработчика.
-                            </h4>
-                        </div>
-                        <div class="competition__info">
-                            <img src="img/competition-svg-2.svg" alt="logo">
-                            <h3>JavaScript</h3>
-                            <h4>
-                                Это язык программирования, который используется 
-                                для создания динамического и интерактивного 
-                                пользовательского интерфейса. Хороший фронтенд 
-                                разработчик должен быть знаком с основами JavaScript, 
-                                включая работу с DOM-деревом, асинхронными запросами 
-                                и манипуляцией данными на стороне клиента.
-                            </h4>
-                        </div>
-                        <div class="competition__info">
-                            <img src="img/competition-svg-3.svg" alt="logo">
-                            <h3>Работа с библиотеками и фреймворками</h3>
-                            <h4>
-                                Фронтенд разработчики должны быть знакомы с различными 
-                                библиотеками и фреймворками, такими как React, Angular, 
-                                Vue и другими. Умение использовать готовые решения, 
-                                адаптировать их под нужды проекта и расширять их 
-                                функциональность, является очень важным навыком.
-                            </h4>
-                        </div>
-                        <div class="competition__info">
-                            <img src="img/competition-svg-4.svg" alt="logo">
-                            <h3>Разработка для мобильных устройств и адаптивная верстка</h3>
-                            <h4>
-                                Современный фронтенд разработчик должен уметь разрабытывать 
-                                и верстать качественные приложения и сайты не только для больших экранов,
-                                 но, так же, для планшетов и мобильных устройств.
-                            </h4>
-                        </div>
+               </div>
+          </section>
+     </main>
+     <footer class="footer bg-my-black-color sm:footer-sm-tlw dm-2:footer-dm-2-tlw">
+          <div class="container min-w-full container-sm-tlw container-md-tlw container-md-2-tlw container-md-3-tlw container-lg-1-tlw container-xl-tlw">
+               <div class="footer-inner">
+                    <div class="footer__sides">
+                         <div class="footer__left-side">
+                              <div class="footer__title sm:mb-10 dm-2:mb-12">
+                                   <h2 class="text-my-white-color sm:text-xl font-semibold dm:text-2xl dm-2:text-3xl xl:text-4xl">Портфолио фронтенд-разработчика Раиля Ахмерова</h2>
+                              </div>
+                              <div class="footer__links footer__links-after-adaptive font-semibold sm:footer__links-after-adaptive-sm-tlw dm-2:footer__links-after-adaptive-dm-2-tlw">
+                                   <a class="footer__link telegram-link text-my-white-color dm:text-lg dm-2:text-xl xl:text-2xl" href="https://t.me/Akhmer0v" target="_blank" rel="noopener">telegram</a>
+                                   <a class="footer__link mail-link text-my-white-color dm:text-lg dm-2:text-xl xl:text-2xl" href="mailto: Railwork0015@gmail.com" target="_blank" rel="noopener">mail</a>
+                                   <a class="footer__link vk-link text-my-white-color dm:text-lg dm-2:text-xl xl:text-2xl" href="https://vk.com/tatarin.kick" target="_blank" rel="noopener">vk</a>
+                              </div>
+                              <div class="footer__site-rights">
+                                   <p class="text-my-grey-color sm:mb-3 dm:text-lg dm-2:text-xl xl:text-2xl">Все права защищены 2024</p>
+                              </div>
+                         </div>
+                         <div class="footer__right-side">
+                              <div class="footer__links font-semibold sm:footer__links-sm-tlw">
+                                   <a class="footer__link telegram-link text-my-white-color" href="https://t.me/Akhmer0v" target="_blank" rel="noopener">telegram</a>
+                                   <a class="footer__link mail-link text-my-white-color" href="mailto:railwork0015@gmail.com" target="_blank" rel="noopener">mail</a>
+                                   <a class="footer__link vk-link text-my-white-color" href="https://vk.com/tatarin.kick" target="_blank" rel="noopener">vk</a>
+                              </div>
+                              <div class="footer__data-processing-policy">
+                                   <p class="text-my-grey-color dm:text-lg dm-2:text-xl xl:text-2xl">Политика обработки данных</p>
+                              </div>
+                         </div>
                     </div>
-                </div>
-            </div>
-        </section>
-        <section id="services" class="skills_for_work">
-            <div class="container">
-                <div class="skills_for_work-inner">
-                    <div class="skills_for_work__title">
-                        <h2>Помогаю реализовать <br> широкий спектр задач</h2>
-                    </div>
-                    <div class="skills_for_work__content">
-                        <div class="item__info">
-                            <picture class="content__img">
-                                <source srcset="img/media-skills-img-1.jpg" media="(max-width: 600px)">
-                                <img src="img/skills-img-1.jpg" alt="картинка">
-                            </picture>
-                            <div class="content__text">
-                                <div class="content-left">
-                                    <h3>Разработка сайта под ключ</h3>
-                                </div>
-                                <div class="content-right">
-                                    <h4>
-                                        Это создание дизайн веб-сайтов, созданный для 
-                                        удобства пользователя и решения бизнес-задач
-                                        Сайты должны быть понятными и удобными, ведь 
-                                        чем понятнее сайт, тем быстрее пользователь 
-                                        совершит целевое действие
-                                    </h4>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="item__info">
-                            <picture class="content__img">
-                                <source srcset="img/media-skills-img-2.jpg" media="(max-width: 600px)">
-                                <img src="img/skills-img-2.jpg" alt="картинка">
-                            </picture>  
-                            <div class="content__text">
-                                <div class="content-left">
-                                    <h3>Верстка сайтов</h3>
-                                </div>
-                                <div class="content-right">
-                                    <h4>
-                                        Это создание дизайн веб-сайтов, созданный для 
-                                        удобства пользователя и решения бизнес-задач
-                                        Сайты должны быть понятными и удобными, ведь 
-                                        чем понятнее сайт, тем быстрее пользователь 
-                                        совершит целевое действие
-                                    </h4>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="item__info">
-                            <picture class="content__img">
-                                <source srcset="img/media-skills-img-3.jpg" media="(max-width: 600px)">
-                                <img src="img/skills-img-3.jpg" alt="картинка">
-                            </picture>
-                            <div class="content__text">
-                                <div class="content-left">
-                                    <h3>Разработка мобильного интерфейса</h3>
-                                </div>
-                                <div class="content-right">
-                                    <h4>
-                                        Это создание дизайн веб-сайтов, созданный для 
-                                        удобства пользователя и решения бизнес-задач
-                                        Сайты должны быть понятными и удобными, ведь 
-                                        чем понятнее сайт, тем быстрее пользователь 
-                                        совершит целевое действие
-                                    </h4>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </section>
-        <section id="contacts" class="contacts">
-            <div class="container">
-                <div class="contacts-inner">
-                    <div class="contact__sides">
-                        <div class="contact__left">
-                            <div class="contact__left-title">
-                                <h2>Для связи со <br> мной заполните простую форму</h2>
-                            </div>
-                            <div class="contact__left-inputs">
-                                <input id="contact-name" type="text" placeholder="Имя Фамилия" autocomplete="on">
-                                <input id="contact-mail" type="email" placeholder="example@mail.com" autocomplete="on">
-                            </div>
-                        </div>
-                        <div class="contact__right">
-                            <img class="contact__img-notebook" src="img/contact-computer.svg" alt="notebook img">
-                            <img class="contact__img-developer" src="img/contact-man.svg" alt="developer img">
-                        </div>
-                    </div>
-                    <div class="contact__btn">
-                        <button>Отправить</button>
-                    </div>
-                </div>
-            </div>
-        </section>
-    </main>
-    <footer class="footer">
-        <div class="container">
-            <div class="footer-inner">
-                <div class="footer__sides">
-                    <div class="footer__left-side">
-                        <div class="footer__title">
-                            <h2>Портфолио фронтенд-разработчика Раиля Ахмерова</h2>
-                        </div>
-                        <div class="footer__links footer__links-after-adaptive">
-                            <a class="footer__link telegram-link" href="https://t.me/Akhmer0v" target="_blank" rel="noopener">telegram</a>
-                            <a class="footer__link mail-link" href="mailto: Railwork0015@gmail.com" target="_blank" rel="noopener">mail</a>
-                            <a class="footer__link vk-link" href="https://vk.com/tatarin.kick" target="_blank" rel="noopener">vk</a>
-                        </div>
-                        <div class="footer__site-rights">
-                            <p>Все права защищены 2024</p>
-                        </div>
-                    </div>
-                    <div class="footer__right-side">
-                        <div class="footer__links">
-                            <a class="footer__link telegram-link" href="https://t.me/Akhmer0v" target="_blank" rel="noopener">telegram</a>
-                            <a class="footer__link mail-link" href="mailto:Railwork0015@gmail.com" target="_blank" rel="noopener">mail</a>
-                            <a class="footer__link vk-link" href="https://vk.com/tatarin.kick" target="_blank" rel="noopener">vk</a>
-                        </div>
-                        <div class="footer__data-processing-policy">
-                            <p>Политика обработки данных</p>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </footer>
+               </div>
+          </div>
+     </footer>
     <script src="js/burger.js"></script>
 </body>
 </html>
