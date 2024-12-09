@@ -90,7 +90,10 @@
 }
 @layer components {
     /* footer */
-
+    .footer-link-animations-tlw {
+        @apply hover:cursor-pointer ease-in-out hover:transition-all
+        hover:duration-[0.3s] hover:text-my-purpur-color;
+    }
 }
 @layer components {
     /* Значения для sm (320px) */

@@ -695,6 +695,20 @@ video {
 
 /* footer */
 
+.footer-link-animations-tlw {
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.footer-link-animations-tlw:hover {
+  cursor: pointer;
+  --tw-text-opacity: 1;
+  color: rgb(198 198 255 / var(--tw-text-opacity, 1));
+  transition-property: all;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  transition-duration: 150ms;
+  transition-duration: 0.3s;
+}
+
 /* Значения для sm (320px) */
 
 /* Значения для dm (375px) */
@@ -729,8 +743,8 @@ video {
   top: -150px;
 }
 
-.-top-\[30px\] {
-  top: -30px;
+.-top-\[40px\] {
+  top: -40px;
 }
 
 .left-0 {
@@ -743,18 +757,6 @@ video {
 
 .top-\[35\%\] {
   top: 35%;
-}
-
-.-top-\[40px\] {
-  top: -40px;
-}
-
-.-top-\[45px\] {
-  top: -45px;
-}
-
-.-top-\[42px\] {
-  top: -42px;
 }
 
 .z-10 {
@@ -885,16 +887,6 @@ video {
 .py-4 {
   padding-top: 1rem;
   padding-bottom: 1rem;
-}
-
-.py-5 {
-  padding-top: 1.25rem;
-  padding-bottom: 1.25rem;
-}
-
-.py-10 {
-  padding-top: 2.5rem;
-  padding-bottom: 2.5rem;
 }
 
 .text-2xl {
@@ -1038,6 +1030,20 @@ video {
     padding-bottom: 0px;
     padding-left: 1.75rem;
     padding-right: 1.75rem;
+  }
+
+  .sm\:footer-link-animations-tlw {
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  }
+
+  .sm\:footer-link-animations-tlw:hover {
+    cursor: pointer;
+    --tw-text-opacity: 1;
+    color: rgb(198 198 255 / var(--tw-text-opacity, 1));
+    transition-property: all;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+    transition-duration: 150ms;
+    transition-duration: 0.3s;
   }
 
   .sm\:project__title-h2-sm-tlw {
@@ -1441,16 +1447,6 @@ video {
   }
 }
 
-.placeholder\:text-xl::-moz-placeholder {
-  font-size: 1.25rem;
-  line-height: 1.75rem;
-}
-
-.placeholder\:text-xl::placeholder {
-  font-size: 1.25rem;
-  line-height: 1.75rem;
-}
-
 .placeholder\:text-2xl::-moz-placeholder {
   font-size: 1.5rem;
   line-height: 2rem;
@@ -1459,16 +1455,6 @@ video {
 .placeholder\:text-2xl::placeholder {
   font-size: 1.5rem;
   line-height: 2rem;
-}
-
-.placeholder\:text-4xl::-moz-placeholder {
-  font-size: 2.25rem;
-  line-height: 2.5rem;
-}
-
-.placeholder\:text-4xl::placeholder {
-  font-size: 2.25rem;
-  line-height: 2.5rem;
 }
 
 @media (min-width: 320px) {
@@ -1713,31 +1699,8 @@ video {
     display: block;
   }
 
-  .xl\:flex {
-    display: flex;
-  }
-
   .xl\:w-\[50\%\] {
     width: 50%;
-  }
-
-  .xl\:min-w-full {
-    min-width: 100%;
-  }
-
-  .xl\:py-20 {
-    padding-top: 5rem;
-    padding-bottom: 5rem;
-  }
-
-  .xl\:py-10 {
-    padding-top: 2.5rem;
-    padding-bottom: 2.5rem;
-  }
-
-  .xl\:py-4 {
-    padding-top: 1rem;
-    padding-bottom: 1rem;
   }
 
   .xl\:py-5 {
@@ -1745,18 +1708,13 @@ video {
     padding-bottom: 1.25rem;
   }
 
-  .xl\:text-4xl {
-    font-size: 2.25rem;
-    line-height: 2.5rem;
-  }
-
   .xl\:text-2xl {
     font-size: 1.5rem;
     line-height: 2rem;
   }
 
-  .xl\:text-5xl {
-    font-size: 3rem;
-    line-height: 1;
+  .xl\:text-4xl {
+    font-size: 2.25rem;
+    line-height: 2.5rem;
   }
 }
