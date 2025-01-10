@@ -54,7 +54,7 @@ module.exports = {
         'my-input-inside-grey-color': '#3B3D3B',
         'my-white-color': '#fff',
         'my-bg-burger-black-color': 'rgba(0, 0, 0, 0.4)',
-      }
+      },
     },
   },
   plugins: [],
